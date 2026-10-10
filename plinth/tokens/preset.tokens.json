@@ -1,0 +1,531 @@
+{
+  "preset": {
+    "$description": "Identity-dial presets. A brand profile selects one per dial.",
+    "temperature": {
+      "warm": {
+        "neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.50}"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.100}"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.200}"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.300}"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.400}"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.500}"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.600}"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.700}"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.800}"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.900}"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "{color.neutral.warm.950}"
+          }
+        }
+      },
+      "stone": {
+        "neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.50}"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.100}"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.200}"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.300}"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.400}"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.500}"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.600}"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.700}"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.800}"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.900}"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "{color.neutral.stone.950}"
+          }
+        }
+      },
+      "cool": {
+        "neutral": {
+          "50": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.50}"
+          },
+          "100": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.100}"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.200}"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.300}"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.400}"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.500}"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.600}"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.700}"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.800}"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.900}"
+          },
+          "950": {
+            "$type": "color",
+            "$value": "{color.neutral.cool.950}"
+          }
+        }
+      }
+    },
+    "accent": {
+      "laterite": {
+        "base": {
+          "$type": "color",
+          "$value": "{color.accent.laterite.base}"
+        },
+        "lift": {
+          "$type": "color",
+          "$value": "{color.accent.laterite.lift}"
+        },
+        "tint": {
+          "$type": "color",
+          "$value": "{color.accent.laterite.tint}"
+        },
+        "deep": {
+          "$type": "color",
+          "$value": "{color.accent.laterite.deep}"
+        }
+      },
+      "indigo": {
+        "base": {
+          "$type": "color",
+          "$value": "{color.accent.indigo.base}"
+        },
+        "lift": {
+          "$type": "color",
+          "$value": "{color.accent.indigo.lift}"
+        },
+        "tint": {
+          "$type": "color",
+          "$value": "{color.accent.indigo.tint}"
+        },
+        "deep": {
+          "$type": "color",
+          "$value": "{color.accent.indigo.deep}"
+        }
+      },
+      "neem": {
+        "base": {
+          "$type": "color",
+          "$value": "{color.accent.neem.base}"
+        },
+        "lift": {
+          "$type": "color",
+          "$value": "{color.accent.neem.lift}"
+        },
+        "tint": {
+          "$type": "color",
+          "$value": "{color.accent.neem.tint}"
+        },
+        "deep": {
+          "$type": "color",
+          "$value": "{color.accent.neem.deep}"
+        }
+      },
+      "sandstone": {
+        "base": {
+          "$type": "color",
+          "$value": "{color.accent.sandstone.base}"
+        },
+        "lift": {
+          "$type": "color",
+          "$value": "{color.accent.sandstone.lift}"
+        },
+        "tint": {
+          "$type": "color",
+          "$value": "{color.accent.sandstone.tint}"
+        },
+        "deep": {
+          "$type": "color",
+          "$value": "{color.accent.sandstone.deep}"
+        }
+      }
+    },
+    "displayFace": {
+      "literary": {
+        "family": {
+          "$type": "fontFamily",
+          "$value": "{font.family.newsreader}"
+        },
+        "scale": {
+          "$type": "number",
+          "$value": 1
+        },
+        "tracking": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.025,
+            "unit": "rem"
+          },
+          "$description": "Applied as em in CSS."
+        },
+        "weight": {
+          "$type": "fontWeight",
+          "$value": 300
+        },
+        "$extensions": {
+          "in.plinth": {
+            "emphasis": "italic"
+          }
+        }
+      },
+      "technical": {
+        "family": {
+          "$type": "fontFamily",
+          "$value": "{font.family.plexSerif}"
+        },
+        "scale": {
+          "$type": "number",
+          "$value": 0.92
+        },
+        "tracking": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.025,
+            "unit": "rem"
+          },
+          "$description": "Applied as em in CSS."
+        },
+        "weight": {
+          "$type": "fontWeight",
+          "$value": 300
+        },
+        "$extensions": {
+          "in.plinth": {
+            "emphasis": "italic"
+          }
+        }
+      },
+      "modernist": {
+        "family": {
+          "$type": "fontFamily",
+          "$value": "{font.family.archivo}"
+        },
+        "scale": {
+          "$type": "number",
+          "$value": 0.92
+        },
+        "tracking": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.04,
+            "unit": "rem"
+          },
+          "$description": "Applied as em in CSS."
+        },
+        "weight": {
+          "$type": "fontWeight",
+          "$value": 300
+        },
+        "$extensions": {
+          "in.plinth": {
+            "emphasis": "weight-400"
+          }
+        }
+      }
+    },
+    "typeContrast": {
+      "quiet": {
+        "displayXl": {
+          "min": {
+            "$type": "dimension",
+            "$value": {
+              "value": 48,
+              "unit": "px"
+            }
+          },
+          "max": {
+            "$type": "dimension",
+            "$value": {
+              "value": 82,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "in.plinth": {
+              "fluid": {
+                "minViewport": 375,
+                "maxViewport": 1440
+              },
+              "css": "clamp(48px, 36.028px + 3.192vw, 82px)"
+            }
+          }
+        },
+        "displayL": {
+          "min": {
+            "$type": "dimension",
+            "$value": {
+              "value": 40,
+              "unit": "px"
+            }
+          },
+          "max": {
+            "$type": "dimension",
+            "$value": {
+              "value": 64,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "in.plinth": {
+              "fluid": {
+                "minViewport": 375,
+                "maxViewport": 1440
+              },
+              "css": "clamp(40px, 31.549px + 2.254vw, 64px)"
+            }
+          }
+        }
+      },
+      "standard": {
+        "displayXl": {
+          "min": {
+            "$type": "dimension",
+            "$value": {
+              "value": 56,
+              "unit": "px"
+            }
+          },
+          "max": {
+            "$type": "dimension",
+            "$value": {
+              "value": 124,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "in.plinth": {
+              "fluid": {
+                "minViewport": 375,
+                "maxViewport": 1440
+              },
+              "css": "clamp(56px, 32.056px + 6.385vw, 124px)"
+            }
+          }
+        },
+        "displayL": {
+          "min": {
+            "$type": "dimension",
+            "$value": {
+              "value": 44,
+              "unit": "px"
+            }
+          },
+          "max": {
+            "$type": "dimension",
+            "$value": {
+              "value": 82,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "in.plinth": {
+              "fluid": {
+                "minViewport": 375,
+                "maxViewport": 1440
+              },
+              "css": "clamp(44px, 30.62px + 3.568vw, 82px)"
+            }
+          }
+        }
+      },
+      "monumental": {
+        "displayXl": {
+          "min": {
+            "$type": "dimension",
+            "$value": {
+              "value": 60,
+              "unit": "px"
+            }
+          },
+          "max": {
+            "$type": "dimension",
+            "$value": {
+              "value": 160,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "in.plinth": {
+              "fluid": {
+                "minViewport": 375,
+                "maxViewport": 1440
+              },
+              "css": "clamp(60px, 24.789px + 9.39vw, 160px)"
+            }
+          }
+        },
+        "displayL": {
+          "min": {
+            "$type": "dimension",
+            "$value": {
+              "value": 48,
+              "unit": "px"
+            }
+          },
+          "max": {
+            "$type": "dimension",
+            "$value": {
+              "value": 96,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "in.plinth": {
+              "fluid": {
+                "minViewport": 375,
+                "maxViewport": 1440
+              },
+              "css": "clamp(48px, 31.099px + 4.507vw, 96px)"
+            }
+          }
+        }
+      }
+    },
+    "density": {
+      "airy": {
+        "desktop": {
+          "$type": "number",
+          "$value": 1.25
+        },
+        "mobile": {
+          "$type": "number",
+          "$value": 1.1
+        }
+      },
+      "standard": {
+        "desktop": {
+          "$type": "number",
+          "$value": 1
+        },
+        "mobile": {
+          "$type": "number",
+          "$value": 1
+        }
+      },
+      "compact": {
+        "desktop": {
+          "$type": "number",
+          "$value": 0.8
+        },
+        "mobile": {
+          "$type": "number",
+          "$value": 0.85
+        }
+      }
+    },
+    "composition": {
+      "$description": "Structural presets; no token values. Selected via data-header / data-hero / data-index and the matching component variant.",
+      "$extensions": {
+        "in.plinth": {
+          "header": [
+            "masthead",
+            "axial",
+            "rail"
+          ],
+          "hero": [
+            "plate",
+            "statement",
+            "index"
+          ],
+          "index": [
+            "ledger",
+            "staggered",
+            "sheet"
+          ]
+        }
+      }
+    },
+    "ground": {
+      "$description": "lime | ink — selects the semantic mode for the whole site.",
+      "$extensions": {
+        "in.plinth": {
+          "values": [
+            "lime",
+            "ink"
+          ]
+        }
+      }
+    }
+  }
+}

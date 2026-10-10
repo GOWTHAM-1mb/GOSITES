@@ -1,0 +1,240 @@
+{
+  "neem-hero-desktop": {
+    "width": 1916,
+    "height": 821,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1916
+    ],
+    "alt": "Linen sofa and teak armchair facing a planted courtyard in afternoon light",
+    "focus": "50% 54%"
+  },
+  "neem-hero-mobile": {
+    "width": 1024,
+    "height": 1536,
+    "widths": [
+      320,
+      640,
+      960,
+      1024
+    ],
+    "alt": "Courtyard living space with linen seating, timber frames and filtered afternoon light",
+    "focus": "50% 68%"
+  },
+  "neem-opening": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Tall timber-framed living room opening towards a planted courtyard",
+    "focus": "50% 52%"
+  },
+  "neem-living": {
+    "width": 1916,
+    "height": 821,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1916
+    ],
+    "alt": "Linen sofa, teak coffee table and glazed opening to a leafy courtyard",
+    "focus": "48% 50%"
+  },
+  "neem-reading": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Upholstered reading chair beside timber bookshelves and a courtyard doorway",
+    "focus": "50% 55%"
+  },
+  "neem-dining": {
+    "width": 1915,
+    "height": 821,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1915
+    ],
+    "alt": "Timber dining table and chairs beside a sunlit courtyard",
+    "focus": "52% 50%"
+  },
+  "estate-verandah": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1536
+    ],
+    "alt": "Cane and timber seating on a red-oxide verandah overlooking green hills",
+    "focus": "50% 50%"
+  },
+  "estate-opening": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Timber-roofed verandah with cane chairs and a red-oxide floor",
+    "focus": "50% 50%"
+  },
+  "estate-bedroom": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Timber bed and linen bedding beside open doors overlooking misty hills",
+    "focus": "50% 50%"
+  },
+  "estate-materials": {
+    "width": 1916,
+    "height": 821,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1916
+    ],
+    "alt": "Red-oxide verandah, terracotta roof and timber posts overlooking misty hills",
+    "focus": "54% 50%"
+  },
+  "bookshop-entrance": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1536
+    ],
+    "alt": "Book-lined timber shelving and display tables along a sunlit stone-floor aisle",
+    "focus": "50% 50%"
+  },
+  "bookshop-opening": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Compact bookshop with timber displays, stone flooring and a window reading corner",
+    "focus": "50% 52%"
+  },
+  "bookshop-reading": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Linen window bench and small reading table beside bookshop shelves",
+    "focus": "50% 54%"
+  },
+  "bookshop-joinery": {
+    "width": 1916,
+    "height": 821,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1916
+    ],
+    "alt": "Freestanding timber book displays and shelving along a glazed bookshop frontage",
+    "focus": "50% 50%"
+  },
+  "cafe-courtyard": {
+    "width": 1536,
+    "height": 1024,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1536
+    ],
+    "alt": "Cane café chairs and timber tables beneath a tree in a limewashed courtyard",
+    "focus": "50% 54%"
+  },
+  "cafe-opening": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Tree-shaded café seating in front of an arched glazed entrance",
+    "focus": "50% 50%"
+  },
+  "cafe-counter": {
+    "width": 1122,
+    "height": 1402,
+    "widths": [
+      320,
+      640,
+      960,
+      1122
+    ],
+    "alt": "Dark stone service counter, timber cabinetry and coffee equipment beside courtyard glazing",
+    "focus": "50% 54%"
+  },
+  "cafe-cane": {
+    "width": 1916,
+    "height": 821,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1916
+    ],
+    "alt": "Timber and cane café seating against limewashed walls and courtyard planting",
+    "focus": "50% 50%"
+  },
+  "studio-material-table": {
+    "width": 1916,
+    "height": 821,
+    "widths": [
+      320,
+      640,
+      960,
+      1440,
+      1916
+    ],
+    "alt": "Timber worktable with stone, wood and woven material samples beside a studio window",
+    "focus": "50% 54%"
+  }
+}

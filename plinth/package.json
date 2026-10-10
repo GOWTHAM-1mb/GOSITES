@@ -1,0 +1,13 @@
+{
+  "name": "plinth-design-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plinth 1.0 — tokens, components and rules for architecture and interior-design studio websites.",
+  "scripts": {
+    "validate": "ajv validate --spec=draft2020 -c ajv-formats -s schema/brand-profile.schema.json -d \"profiles/*.profile.json\""
+  },
+  "devDependencies": {
+    "ajv-cli": "^5.0.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

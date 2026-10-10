@@ -1,0 +1,115 @@
+{
+  "brand": {
+    "$description": "Default resolution (literary / laterite / warm / standard / standard). A client profile re-points these aliases; CSS does it via data attributes on <html>.",
+    "neutral": {
+      "50": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.50}"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.100}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.300}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.400}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.500}"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.600}"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.700}"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.800}"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.900}"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "{preset.temperature.warm.neutral.950}"
+      }
+    },
+    "accent": {
+      "base": {
+        "$type": "color",
+        "$value": "{preset.accent.laterite.base}"
+      },
+      "lift": {
+        "$type": "color",
+        "$value": "{preset.accent.laterite.lift}"
+      },
+      "tint": {
+        "$type": "color",
+        "$value": "{preset.accent.laterite.tint}"
+      },
+      "deep": {
+        "$type": "color",
+        "$value": "{preset.accent.laterite.deep}"
+      }
+    },
+    "displayFace": {
+      "family": {
+        "$type": "fontFamily",
+        "$value": "{preset.displayFace.literary.family}"
+      },
+      "scale": {
+        "$type": "number",
+        "$value": "{preset.displayFace.literary.scale}"
+      },
+      "weight": {
+        "$type": "fontWeight",
+        "$value": "{preset.displayFace.literary.weight}"
+      }
+    },
+    "typeContrast": {
+      "displayXl": {
+        "min": {
+          "$type": "dimension",
+          "$value": "{preset.typeContrast.standard.displayXl.min}"
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": "{preset.typeContrast.standard.displayXl.max}"
+        }
+      },
+      "displayL": {
+        "min": {
+          "$type": "dimension",
+          "$value": "{preset.typeContrast.standard.displayL.min}"
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": "{preset.typeContrast.standard.displayL.max}"
+        }
+      }
+    },
+    "density": {
+      "desktop": {
+        "$type": "number",
+        "$value": "{preset.density.standard.desktop}"
+      },
+      "mobile": {
+        "$type": "number",
+        "$value": "{preset.density.standard.mobile}"
+      }
+    }
+  }
+}

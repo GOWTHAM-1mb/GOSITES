@@ -1,0 +1,668 @@
+{
+  "semantic": {
+    "$description": "Role tokens. Components read only these. Two modes: lime and ink.",
+    "lime": {
+      "surface": {
+        "page": {
+          "$type": "color",
+          "$value": "{brand.neutral.50}"
+        },
+        "raised": {
+          "$type": "color",
+          "$value": "{brand.neutral.100}"
+        },
+        "sunken": {
+          "$type": "color",
+          "$value": "{brand.neutral.200}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{brand.neutral.100}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{brand.neutral.200}"
+        }
+      },
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{brand.neutral.600}"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{brand.neutral.500}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{brand.neutral.50}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{brand.neutral.400}"
+        }
+      },
+      "line": {
+        "hair": {
+          "$type": "color",
+          "$value": "{brand.neutral.300}"
+        },
+        "rule": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        }
+      },
+      "action": {
+        "primary": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{brand.neutral.700}"
+        },
+        "primary-active": {
+          "$type": "color",
+          "$value": "{brand.neutral.800}"
+        },
+        "on-primary": {
+          "$type": "color",
+          "$value": "{brand.neutral.50}"
+        }
+      },
+      "accent": {
+        "ui": {
+          "$type": "color",
+          "$value": "{brand.accent.base}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{brand.accent.tint}"
+        }
+      },
+      "focus": {
+        "ring": {
+          "$type": "color",
+          "$value": "{brand.accent.base}"
+        }
+      },
+      "status": {
+        "error": {
+          "$type": "color",
+          "$value": "{color.status.error.base}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.status.success.base}"
+        }
+      }
+    },
+    "ink": {
+      "surface": {
+        "page": {
+          "$type": "color",
+          "$value": "{brand.neutral.950}"
+        },
+        "raised": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        },
+        "sunken": {
+          "$type": "color",
+          "$value": "{brand.neutral.800}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{brand.neutral.50}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{brand.neutral.800}"
+        }
+      },
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "{brand.neutral.100}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{brand.neutral.400}"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{brand.neutral.500}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{brand.neutral.600}"
+        }
+      },
+      "line": {
+        "hair": {
+          "$type": "color",
+          "$value": "{brand.neutral.700}"
+        },
+        "rule": {
+          "$type": "color",
+          "$value": "{brand.neutral.100}"
+        }
+      },
+      "action": {
+        "primary": {
+          "$type": "color",
+          "$value": "{brand.neutral.50}"
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{brand.neutral.200}"
+        },
+        "primary-active": {
+          "$type": "color",
+          "$value": "{brand.neutral.300}"
+        },
+        "on-primary": {
+          "$type": "color",
+          "$value": "{brand.neutral.900}"
+        }
+      },
+      "accent": {
+        "ui": {
+          "$type": "color",
+          "$value": "{brand.accent.lift}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{brand.accent.deep}"
+        }
+      },
+      "focus": {
+        "ring": {
+          "$type": "color",
+          "$value": "{brand.accent.lift}"
+        }
+      },
+      "status": {
+        "error": {
+          "$type": "color",
+          "$value": "{color.status.error.lift}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.status.success.lift}"
+        }
+      }
+    },
+    "type": {
+      "$description": "display-xl / display-l = brand.typeContrast × brand.displayFace.scale (computed in CSS). h1, h2 also × display-scale.",
+      "h1": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 34,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 56,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(34px, 26.254px + 2.066vw, 56px)"
+          }
+        }
+      },
+      "h2": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 26,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 38,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(26px, 21.775px + 1.127vw, 38px)"
+          }
+        }
+      },
+      "h3": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 24,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(20px, 18.592px + 0.376vw, 24px)"
+          }
+        }
+      },
+      "lede": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 19,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 23,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(19px, 17.592px + 0.376vw, 23px)"
+          }
+        }
+      },
+      "body": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 17,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(16px, 15.648px + 0.094vw, 17px)"
+          }
+        }
+      },
+      "bodyS": {
+        "$type": "dimension",
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "label": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "meta": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "lineHeight": {
+        "displayXl": {
+          "$type": "number",
+          "$value": 0.95
+        },
+        "displayL": {
+          "$type": "number",
+          "$value": 1
+        },
+        "h1": {
+          "$type": "number",
+          "$value": 1.08
+        },
+        "h2": {
+          "$type": "number",
+          "$value": 1.15
+        },
+        "h3": {
+          "$type": "number",
+          "$value": 1.3
+        },
+        "lede": {
+          "$type": "number",
+          "$value": 1.45
+        },
+        "body": {
+          "$type": "number",
+          "$value": 1.6
+        }
+      }
+    },
+    "section": {
+      "$description": "× density",
+      "s": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 64,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 128,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(64px, 41.465px + 6.009vw, 128px)"
+          }
+        }
+      },
+      "m": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 96,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 192,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(96px, 62.197px + 9.014vw, 192px)"
+          }
+        }
+      },
+      "l": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 128,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 256,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(128px, 82.93px + 12.019vw, 256px)"
+          }
+        }
+      }
+    },
+    "layout": {
+      "containerMax": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1680,
+          "unit": "px"
+        }
+      },
+      "margin": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 80,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(20px, -1.127px + 5.634vw, 80px)"
+          }
+        }
+      },
+      "gutter": {
+        "min": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          }
+        },
+        "max": {
+          "$type": "dimension",
+          "$value": {
+            "value": 32,
+            "unit": "px"
+          }
+        },
+        "$extensions": {
+          "in.plinth": {
+            "fluid": {
+              "minViewport": 375,
+              "maxViewport": 1440
+            },
+            "css": "clamp(16px, 10.366px + 1.502vw, 32px)"
+          }
+        }
+      },
+      "railWidth": {
+        "$type": "dimension",
+        "$value": {
+          "value": 240,
+          "unit": "px"
+        }
+      },
+      "headerHeight": {
+        "mobile": {
+          "$type": "dimension",
+          "$value": {
+            "value": 64,
+            "unit": "px"
+          }
+        },
+        "desktop": {
+          "$type": "dimension",
+          "$value": {
+            "value": 80,
+            "unit": "px"
+          }
+        }
+      },
+      "touchTarget": {
+        "$type": "dimension",
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        }
+      },
+      "fieldHeight": {
+        "$type": "dimension",
+        "$value": {
+          "value": 48,
+          "unit": "px"
+        }
+      },
+      "focusWidth": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2,
+          "unit": "px"
+        }
+      },
+      "focusOffset": {
+        "$type": "dimension",
+        "$value": {
+          "value": 3,
+          "unit": "px"
+        }
+      },
+      "lineWidth": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "px"
+        }
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "$extensions": {
+        "in.plinth": {
+          "measure": {
+            "body": "66ch",
+            "lede": "34ch",
+            "head": "22ch"
+          }
+        }
+      }
+    },
+    "z": {
+      "header": {
+        "$type": "number",
+        "$value": 100
+      },
+      "menu": {
+        "$type": "number",
+        "$value": 200
+      },
+      "viewer": {
+        "$type": "number",
+        "$value": 300
+      },
+      "skipLink": {
+        "$type": "number",
+        "$value": 400
+      }
+    },
+    "ratio": {
+      "landscape": {
+        "$type": "number",
+        "$value": 1.5,
+        "$extensions": {
+          "in.plinth": {
+            "css": "3/2"
+          }
+        }
+      },
+      "portrait": {
+        "$type": "number",
+        "$value": 0.8,
+        "$extensions": {
+          "in.plinth": {
+            "css": "4/5"
+          }
+        }
+      },
+      "square": {
+        "$type": "number",
+        "$value": 1,
+        "$extensions": {
+          "in.plinth": {
+            "css": "1/1"
+          }
+        }
+      },
+      "tall": {
+        "$type": "number",
+        "$value": 0.667,
+        "$extensions": {
+          "in.plinth": {
+            "css": "2/3"
+          }
+        }
+      },
+      "panorama": {
+        "$type": "number",
+        "$value": 2.333,
+        "$extensions": {
+          "in.plinth": {
+            "css": "21/9"
+          }
+        }
+      }
+    }
+  }
+}

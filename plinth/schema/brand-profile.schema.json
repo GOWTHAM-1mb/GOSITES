@@ -1,0 +1,431 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://plinth.design/schema/brand-profile-1.0.json",
+  "title": "Plinth brand profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "plinthVersion",
+    "client",
+    "dials"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "plinthVersion": {
+      "enum": [
+        "1.0"
+      ]
+    },
+    "client": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "city",
+        "locale"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "city": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locale": {
+          "enum": [
+            "en-IN",
+            "hi-IN",
+            "mr-IN",
+            "gu-IN",
+            "ml-IN",
+            "ta-IN",
+            "kn-IN",
+            "bn-IN",
+            "te-IN"
+          ]
+        },
+        "scripts": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "latn",
+              "deva",
+              "gujr",
+              "mlym",
+              "taml",
+              "knda",
+              "beng",
+              "telu"
+            ]
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "dials": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "displayFace",
+        "accent",
+        "temperature",
+        "typeContrast",
+        "density",
+        "composition",
+        "ground"
+      ],
+      "properties": {
+        "displayFace": {
+          "enum": [
+            "literary",
+            "technical",
+            "modernist",
+            "exception"
+          ]
+        },
+        "accent": {
+          "enum": [
+            "laterite",
+            "indigo",
+            "neem",
+            "sandstone",
+            "exception"
+          ]
+        },
+        "temperature": {
+          "enum": [
+            "warm",
+            "stone",
+            "cool",
+            "exception"
+          ]
+        },
+        "typeContrast": {
+          "enum": [
+            "quiet",
+            "standard",
+            "monumental"
+          ]
+        },
+        "density": {
+          "enum": [
+            "airy",
+            "standard",
+            "compact"
+          ]
+        },
+        "composition": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "header",
+            "hero",
+            "index"
+          ],
+          "properties": {
+            "header": {
+              "enum": [
+                "masthead",
+                "axial",
+                "rail"
+              ]
+            },
+            "hero": {
+              "enum": [
+                "plate",
+                "statement",
+                "index"
+              ]
+            },
+            "index": {
+              "enum": [
+                "ledger",
+                "staggered",
+                "sheet"
+              ]
+            }
+          }
+        },
+        "ground": {
+          "enum": [
+            "lime",
+            "ink"
+          ]
+        }
+      }
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/exception"
+      }
+    },
+    "distinctFrom": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Client ids in the same market. Advisory comparison only (R14)."
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "$comment": "R1 statement hero ✕ quiet contrast",
+      "if": {
+        "properties": {
+          "dials": {
+            "properties": {
+              "composition": {
+                "properties": {
+                  "hero": {
+                    "const": "statement"
+                  }
+                },
+                "required": [
+                  "hero"
+                ]
+              }
+            },
+            "required": [
+              "composition"
+            ]
+          }
+        },
+        "required": [
+          "dials"
+        ]
+      },
+      "then": {
+        "properties": {
+          "dials": {
+            "properties": {
+              "typeContrast": {
+                "not": {
+                  "const": "quiet"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "$comment": "R2 axial header ✕ index hero",
+      "if": {
+        "properties": {
+          "dials": {
+            "properties": {
+              "composition": {
+                "properties": {
+                  "header": {
+                    "const": "axial"
+                  }
+                },
+                "required": [
+                  "header"
+                ]
+              }
+            },
+            "required": [
+              "composition"
+            ]
+          }
+        },
+        "required": [
+          "dials"
+        ]
+      },
+      "then": {
+        "properties": {
+          "dials": {
+            "properties": {
+              "composition": {
+                "properties": {
+                  "hero": {
+                    "not": {
+                      "const": "index"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "$comment": "dials.accent = \"exception\" requires a matching exceptions[] entry",
+      "if": {
+        "properties": {
+          "dials": {
+            "properties": {
+              "accent": {
+                "const": "exception"
+              }
+            },
+            "required": [
+              "accent"
+            ]
+          }
+        },
+        "required": [
+          "dials"
+        ]
+      },
+      "then": {
+        "required": [
+          "exceptions"
+        ],
+        "properties": {
+          "exceptions": {
+            "contains": {
+              "properties": {
+                "target": {
+                  "const": "accent"
+                }
+              },
+              "required": [
+                "target"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "$comment": "dials.displayFace = \"exception\" requires a matching exceptions[] entry",
+      "if": {
+        "properties": {
+          "dials": {
+            "properties": {
+              "displayFace": {
+                "const": "exception"
+              }
+            },
+            "required": [
+              "displayFace"
+            ]
+          }
+        },
+        "required": [
+          "dials"
+        ]
+      },
+      "then": {
+        "required": [
+          "exceptions"
+        ],
+        "properties": {
+          "exceptions": {
+            "contains": {
+              "properties": {
+                "target": {
+                  "const": "displayFace"
+                }
+              },
+              "required": [
+                "target"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "$comment": "dials.temperature = \"exception\" requires a matching exceptions[] entry",
+      "if": {
+        "properties": {
+          "dials": {
+            "properties": {
+              "temperature": {
+                "const": "exception"
+              }
+            },
+            "required": [
+              "temperature"
+            ]
+          }
+        },
+        "required": [
+          "dials"
+        ]
+      },
+      "then": {
+        "required": [
+          "exceptions"
+        ],
+        "properties": {
+          "exceptions": {
+            "contains": {
+              "properties": {
+                "target": {
+                  "const": "temperature"
+                }
+              },
+              "required": [
+                "target"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "exception": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "target",
+        "value",
+        "rationale",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^EXC-[0-9]{2}$"
+        },
+        "target": {
+          "type": "string",
+          "pattern": "^(accent|displayFace|temperature|logoColor|rule:R(6|7|8|9|10)|token:--[a-z0-9-]+)$",
+          "not": {
+            "pattern": "^token:--(radius|shadow|focus-.*|touch-target|field-h|dur-.*|ease-.*|space-.*|text-.*|surface-.*|line-.*|font-text|font-mono|type-h[1-3]|type-body.*|type-lede|type-label|type-meta)$"
+          },
+          "description": "accent | displayFace | temperature | logoColor | rule:R6–R10 | token:--<unlocked-token>"
+        },
+        "value": {
+          "description": "accent/temperature: {\"oklch\":[L,C,H]}. displayFace: {\"family\":[...],\"scale\":n,\"tracking\":\"-0.02em\",\"emphasis\":\"italic\"|\"weight-400\"}. Otherwise a CSS value string."
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 20
+        },
+        "source": {
+          "type": "string",
+          "minLength": 3
+        },
+        "approvedBy": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

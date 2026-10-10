@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/brand-profile.schema.json",
+  "plinthVersion": "1.0",
+  "client": {
+    "id": "studio-kiln",
+    "name": "Studio Kiln Interiors",
+    "city": "Ahmedabad",
+    "locale": "en-IN"
+  },
+  "dials": {
+    "displayFace": "modernist",
+    "accent": "indigo",
+    "temperature": "cool",
+    "typeContrast": "monumental",
+    "density": "compact",
+    "composition": {
+      "header": "rail",
+      "hero": "index",
+      "index": "sheet"
+    },
+    "ground": "lime"
+  },
+  "exceptions": [],
+  "distinctFrom": [
+    "ambar-rao",
+    "ira-menon"
+  ]
+}

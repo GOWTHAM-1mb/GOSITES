@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-IN" class="no-js" data-display="modernist" data-accent="indigo" data-temperature="cool" data-contrast="monumental" data-density="compact" data-ground="lime" data-header="rail" data-hero="index" data-index="sheet">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Studio Kiln Interiors</title>
+<meta name="description" content="Reference implementation — Plinth 1.0 composition study. Fictional studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..400;1,6..72,300..400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300&family=Archivo:wght@300;400;500&family=Albert+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../profiles/studio-kiln.brand.css">
+<script src="../../js/plinth.js" defer></script>
+</head>
+<body>
+<a class="p-skip" href="#main">Skip to content</a>
+<header class="p-header p-header--rail">
+  <div class="p-header__bar p-container">
+    <a class="p-logo" href="index.html" aria-label="Studio Kiln Interiors, home"><span class="p-logo__text" style="font-family:var(--font-display);font-size:24px;letter-spacing:-0.02em;font-weight:500">KILN</span><span class="p-logo__sub">Interiors / Ahmedabad</span></a>
+    <nav class="p-nav" aria-label="Primary"><ul><li><a href="work.html">Work</a></li><li><a href="index.html#process">Studio</a></li><li><a href="#">Material library</a></li><li><a href="#">Journal</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav>
+    <p class="p-header__foot p-meta p-muted">23.02° N<br>72.57° E</p>
+    <button class="p-menu-btn" aria-controls="menu" aria-expanded="false">Menu</button>
+  </div>
+  <div class="p-menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" data-state="closed">
+    <div class="p-menu__bar p-container"><span class="p-label">Menu</span><button class="p-menu-btn" data-menu-close>Close</button></div>
+    <nav class="p-menu__list p-container" aria-label="Primary"><ul><li><a href="work.html">Work</a></li><li><a href="index.html#process">Studio</a></li><li><a href="#">Material library</a></li><li><a href="#">Journal</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav>
+    <div class="p-menu__foot p-container p-meta"><a href="tel:+917926401192">+91 79 2640 1192</a><a href="mailto:hello@studiokiln.in">hello@studiokiln.in</a></div>
+  </div>
+</header>
+<div class="p-has-rail">
+<main id="main">
+  <section class="p-hero">
+    <div class="p-container p-grid" style="align-items:end">
+      <h1 class="p-display-xl" style="--l:8">Brief us.</h1>
+      <div class="p-contact" style="--l:4;grid-template-columns:1fr;gap:var(--space-5)">
+        <p class="p-small"><a href="tel:+917926401192">+91 79 2640 1192</a><br><a href="mailto:hello@studiokiln.in">hello@studiokiln.in</a><br><a href="https://wa.me/917926401192">WhatsApp</a></p>
+        <address class="p-small">Kiln House, 3rd floor, Near Law Garden<br>Ellisbridge, Ahmedabad 380006</address>
+      </div>
+    </div>
+  </section>
+  <section class="p-section p-section--s">
+    <div class="p-container p-grid">
+      <div style="--l:3;--m:8"><h2 class="p-label">Enquiry</h2><p class="p-small" style="margin-top:var(--space-3)">Fields marked optional can be left blank.</p></div>
+      <div style="--l:9;--m:8">
+<form class="p-form" data-validate data-demo novalidate action="#" method="post" data-success="Thank you. We reply within three working days with a call slot.">
+  <div class="p-alert p-alert--error p-field--full" data-error-summary tabindex="-1" hidden role="alert"><p>Please check the following:</p><ul class="p-small"></ul></div>
+  <div class="p-field"><label class="p-field__label" for="f-name">Full name</label><input class="p-input" id="f-name" name="name" autocomplete="name" required data-error="Enter your name."><p class="p-field__error" id="f-name-e"></p></div>
+  <div class="p-field"><label class="p-field__label" for="f-email">Email</label><input class="p-input" id="f-email" name="email" type="email" autocomplete="email" required data-error="Enter an email address like name@example.com."><p class="p-field__error"></p></div>
+  <div class="p-field"><label class="p-field__label" for="f-phone">Phone <span class="p-opt">(optional)</span></label><input class="p-input" id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+91" pattern="^\+?[0-9 ]{10,15}$" data-error="Enter a 10-digit mobile number, with or without +91."><p class="p-field__error"></p></div>
+  <div class="p-field"><label class="p-field__label" for="f-city">Project city</label><input class="p-input" id="f-city" name="city" autocomplete="address-level2" required data-error="Tell us where the project is."><p class="p-field__error"></p></div>
+  <fieldset class="p-choices p-field--full"><legend>Project type</legend><div class="p-choices__list"><label class="p-choice"><input type="radio" name="type" value="Residence" required data-error="Choose a project type.">Residence</label><label class="p-choice"><input type="radio" name="type" value="Hospitality" >Hospitality</label><label class="p-choice"><input type="radio" name="type" value="Retail" >Retail</label><label class="p-choice"><input type="radio" name="type" value="Workplace" >Workplace</label><label class="p-choice"><input type="radio" name="type" value="Other" >Other</label></div><p class="p-field__error"></p></fieldset>
+  <div class="p-field"><label class="p-field__label" for="f-area">Approximate area <span class="p-opt">(sq ft)</span></label><input class="p-input" id="f-area" name="area" type="number" inputmode="numeric" min="100" step="50" data-error="Enter an area of at least 100 sq ft."><p class="p-field__hint">A rough figure is fine.</p><p class="p-field__error"></p></div>
+  <div class="p-field"><label class="p-field__label" for="f-budget">Budget</label><select class="p-select" id="f-budget" name="budget" required data-error="Choose a budget range, or ‘Not sure yet’."><option value="">Select a range</option><option>Under ₹25 lakh</option><option>₹25–75 lakh</option><option>₹75 lakh – ₹2 crore</option><option>Above ₹2 crore</option><option>Not sure yet</option></select><p class="p-field__error"></p></div>
+  <div class="p-field"><label class="p-field__label" for="f-time">When would you like to start?</label><select class="p-select" id="f-time" name="timeline"><option>Within 3 months</option><option>3–6 months</option><option>6–12 months</option><option>Just exploring</option></select></div>
+  <div class="p-field p-field--full"><label class="p-field__label" for="f-msg">About the project</label><textarea class="p-textarea" id="f-msg" name="message" required minlength="20" data-error="Tell us a little more — at least 20 characters."></textarea><p class="p-field__hint">The site, who will live or work there, anything you already know you want.</p><p class="p-field__error"></p></div>
+  <div class="p-field p-field--full p-file"><span class="p-field__label" id="f-files-l">Plans or photographs <span class="p-opt">(optional)</span></span><input id="f-files" name="files" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.dwg" data-max-mb="20" aria-labelledby="f-files-l"><label class="p-file__drop" for="f-files"><span class="p-btn p-btn--secondary" aria-hidden="true">Choose files</span><span class="p-small">PDF, JPG, PNG or DWG · up to 20 MB each</span></label><ul class="p-file__list p-small"></ul><p class="p-field__error"></p></div>
+  <label class="p-choice p-field p-field--full" style="display:flex"><input type="checkbox" name="consent" required data-error="Please agree so we can reply.">I agree to Studio Kiln Interiors contacting me about this enquiry.</label>
+  <div class="p-form__actions"><button class="p-btn p-btn--large" type="submit">Send enquiry</button><span class="p-small">We reply within three working days with a call slot.</span></div>
+  <div class="p-alert" data-status tabindex="-1" hidden role="status"><p data-status-title></p></div>
+</form></div>
+    </div>
+  </section>
+</main>
+<footer class="p-footer" data-theme="ink">
+  <div class="p-container">
+    <a href="contact.html" class="p-footer__lead" style="text-decoration:none">Brief us.</a>
+    <div class="p-footer__cols">
+      <div><h2 class="p-label">Studio</h2><address class="p-small" style="color:inherit">Kiln House, 3rd floor, Near Law Garden<br>Ellisbridge, Ahmedabad 380006</address></div>
+      <div><h2 class="p-label">Contact</h2><ul class="p-small" style="color:inherit"><li><a href="tel:+917926401192">+91 79 2640 1192</a></li><li><a href="mailto:hello@studiokiln.in">hello@studiokiln.in</a></li><li><a href="https://wa.me/917926401192">WhatsApp</a></li></ul></div>
+      <div><h2 class="p-label">Pages</h2><ul class="p-small" style="color:inherit"><li><a href="work.html">Work</a></li><li><a href="index.html#process">Studio</a></li><li><a href="#">Material library</a></li><li><a href="#">Journal</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h2 class="p-label">Elsewhere</h2><ul class="p-small" style="color:inherit"><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li></ul></div>
+    </div>
+    <div class="p-footer__legal p-meta"><span>© 2026 Studio Kiln Interiors. Fictional studio — Plinth reference.</span><a href="#" class="p-link">Privacy</a></div>
+  </div>
+</footer>
+</div><dialog class="p-viewer" id="viewer" aria-label="Image viewer">
+  <div class="p-viewer__bar"><span class="p-meta p-viewer__count"></span><button data-viewer-close>Close</button></div>
+  <div class="p-viewer__stage"><img alt=""></div>
+  <div class="p-viewer__foot"><button data-viewer-prev>Previous</button><span class="p-meta p-viewer__caption"></span><button data-viewer-next>Next</button></div>
+</dialog>
+</body>
+</html>

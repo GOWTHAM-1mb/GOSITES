@@ -1,0 +1,32 @@
+{
+  "$schema": "../schema/brand-profile.schema.json",
+  "plinthVersion": "1.0",
+  "client": {
+    "id": "ambar-rao",
+    "name": "Ambar Rao Architects",
+    "city": "Pune",
+    "locale": "en-IN",
+    "scripts": [
+      "latn",
+      "deva"
+    ]
+  },
+  "dials": {
+    "displayFace": "literary",
+    "accent": "laterite",
+    "temperature": "warm",
+    "typeContrast": "standard",
+    "density": "airy",
+    "composition": {
+      "header": "masthead",
+      "hero": "statement",
+      "index": "staggered"
+    },
+    "ground": "lime"
+  },
+  "exceptions": [],
+  "distinctFrom": [
+    "studio-kiln",
+    "mehta-varghese"
+  ]
+}

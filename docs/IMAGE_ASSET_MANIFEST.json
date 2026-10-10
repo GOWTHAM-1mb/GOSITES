@@ -1,0 +1,1486 @@
+{
+  "originalBytes": 51453717,
+  "derivativeBytes": 32132083,
+  "assets": [
+    {
+      "id": "neem-hero-desktop",
+      "source": "Sunlit Tropical Courtyard Living Room.png",
+      "width": 1916,
+      "height": 821,
+      "originalBytes": 2684321,
+      "sha256": "58d39687daf80756a9fb90d331eb7e6cdac29143c9d595cdf79a19c988f28b33",
+      "files": [
+        {
+          "file": "neem-hero-desktop-320.avif",
+          "width": 320,
+          "bytes": 6507
+        },
+        {
+          "file": "neem-hero-desktop-320.webp",
+          "width": 320,
+          "bytes": 10984
+        },
+        {
+          "file": "neem-hero-desktop-320.jpg",
+          "width": 320,
+          "bytes": 11636
+        },
+        {
+          "file": "neem-hero-desktop-640.avif",
+          "width": 640,
+          "bytes": 21455
+        },
+        {
+          "file": "neem-hero-desktop-640.webp",
+          "width": 640,
+          "bytes": 36386
+        },
+        {
+          "file": "neem-hero-desktop-640.jpg",
+          "width": 640,
+          "bytes": 39118
+        },
+        {
+          "file": "neem-hero-desktop-960.avif",
+          "width": 960,
+          "bytes": 45226
+        },
+        {
+          "file": "neem-hero-desktop-960.webp",
+          "width": 960,
+          "bytes": 75432
+        },
+        {
+          "file": "neem-hero-desktop-960.jpg",
+          "width": 960,
+          "bytes": 80186
+        },
+        {
+          "file": "neem-hero-desktop-1440.avif",
+          "width": 1440,
+          "bytes": 89396
+        },
+        {
+          "file": "neem-hero-desktop-1440.webp",
+          "width": 1440,
+          "bytes": 147876
+        },
+        {
+          "file": "neem-hero-desktop-1440.jpg",
+          "width": 1440,
+          "bytes": 166383
+        },
+        {
+          "file": "neem-hero-desktop-1916.avif",
+          "width": 1916,
+          "bytes": 135999
+        },
+        {
+          "file": "neem-hero-desktop-1916.webp",
+          "width": 1916,
+          "bytes": 232432
+        },
+        {
+          "file": "neem-hero-desktop-1916.jpg",
+          "width": 1916,
+          "bytes": 267941
+        }
+      ]
+    },
+    {
+      "id": "neem-hero-mobile",
+      "source": "Sunlit Courtyard Living Space.png",
+      "width": 1024,
+      "height": 1536,
+      "originalBytes": 2848349,
+      "sha256": "cc387095f2472289d67bfcb168d8e0ab953abed0c28835b3fc959b3c8e818fe5",
+      "files": [
+        {
+          "file": "neem-hero-mobile-320.avif",
+          "width": 320,
+          "bytes": 21421
+        },
+        {
+          "file": "neem-hero-mobile-320.webp",
+          "width": 320,
+          "bytes": 36134
+        },
+        {
+          "file": "neem-hero-mobile-320.jpg",
+          "width": 320,
+          "bytes": 37398
+        },
+        {
+          "file": "neem-hero-mobile-640.avif",
+          "width": 640,
+          "bytes": 72184
+        },
+        {
+          "file": "neem-hero-mobile-640.webp",
+          "width": 640,
+          "bytes": 122736
+        },
+        {
+          "file": "neem-hero-mobile-640.jpg",
+          "width": 640,
+          "bytes": 131311
+        },
+        {
+          "file": "neem-hero-mobile-960.avif",
+          "width": 960,
+          "bytes": 139662
+        },
+        {
+          "file": "neem-hero-mobile-960.webp",
+          "width": 960,
+          "bytes": 236334
+        },
+        {
+          "file": "neem-hero-mobile-960.jpg",
+          "width": 960,
+          "bytes": 267350
+        },
+        {
+          "file": "neem-hero-mobile-1024.avif",
+          "width": 1024,
+          "bytes": 154362
+        },
+        {
+          "file": "neem-hero-mobile-1024.webp",
+          "width": 1024,
+          "bytes": 268662
+        },
+        {
+          "file": "neem-hero-mobile-1024.jpg",
+          "width": 1024,
+          "bytes": 299294
+        }
+      ]
+    },
+    {
+      "id": "neem-opening",
+      "source": "Serene Courtyard Living Room.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2802770,
+      "sha256": "8ad543fd302a16ee47506f2ab88e341ac437f52d21a843308c04474e6987200c",
+      "files": [
+        {
+          "file": "neem-opening-320.avif",
+          "width": 320,
+          "bytes": 18781
+        },
+        {
+          "file": "neem-opening-320.webp",
+          "width": 320,
+          "bytes": 32548
+        },
+        {
+          "file": "neem-opening-320.jpg",
+          "width": 320,
+          "bytes": 32925
+        },
+        {
+          "file": "neem-opening-640.avif",
+          "width": 640,
+          "bytes": 65032
+        },
+        {
+          "file": "neem-opening-640.webp",
+          "width": 640,
+          "bytes": 113154
+        },
+        {
+          "file": "neem-opening-640.jpg",
+          "width": 640,
+          "bytes": 116719
+        },
+        {
+          "file": "neem-opening-960.avif",
+          "width": 960,
+          "bytes": 123167
+        },
+        {
+          "file": "neem-opening-960.webp",
+          "width": 960,
+          "bytes": 212098
+        },
+        {
+          "file": "neem-opening-960.jpg",
+          "width": 960,
+          "bytes": 236836
+        },
+        {
+          "file": "neem-opening-1122.avif",
+          "width": 1122,
+          "bytes": 156886
+        },
+        {
+          "file": "neem-opening-1122.webp",
+          "width": 1122,
+          "bytes": 271050
+        },
+        {
+          "file": "neem-opening-1122.jpg",
+          "width": 1122,
+          "bytes": 308044
+        }
+      ]
+    },
+    {
+      "id": "neem-living",
+      "source": "Minimalist Living Room Courtyard Connection.png",
+      "width": 1916,
+      "height": 821,
+      "originalBytes": 2722831,
+      "sha256": "73f61e6784ca8ea0c8cbfb65d31b102c73d4663be306ad7ab0a655e2e51d5a06",
+      "files": [
+        {
+          "file": "neem-living-320.avif",
+          "width": 320,
+          "bytes": 6059
+        },
+        {
+          "file": "neem-living-320.webp",
+          "width": 320,
+          "bytes": 10108
+        },
+        {
+          "file": "neem-living-320.jpg",
+          "width": 320,
+          "bytes": 10994
+        },
+        {
+          "file": "neem-living-640.avif",
+          "width": 640,
+          "bytes": 19576
+        },
+        {
+          "file": "neem-living-640.webp",
+          "width": 640,
+          "bytes": 32914
+        },
+        {
+          "file": "neem-living-640.jpg",
+          "width": 640,
+          "bytes": 36460
+        },
+        {
+          "file": "neem-living-960.avif",
+          "width": 960,
+          "bytes": 39957
+        },
+        {
+          "file": "neem-living-960.webp",
+          "width": 960,
+          "bytes": 67042
+        },
+        {
+          "file": "neem-living-960.jpg",
+          "width": 960,
+          "bytes": 74216
+        },
+        {
+          "file": "neem-living-1440.avif",
+          "width": 1440,
+          "bytes": 80423
+        },
+        {
+          "file": "neem-living-1440.webp",
+          "width": 1440,
+          "bytes": 133582
+        },
+        {
+          "file": "neem-living-1440.jpg",
+          "width": 1440,
+          "bytes": 153647
+        },
+        {
+          "file": "neem-living-1916.avif",
+          "width": 1916,
+          "bytes": 127098
+        },
+        {
+          "file": "neem-living-1916.webp",
+          "width": 1916,
+          "bytes": 208774
+        },
+        {
+          "file": "neem-living-1916.jpg",
+          "width": 1916,
+          "bytes": 253381
+        }
+      ]
+    },
+    {
+      "id": "neem-reading",
+      "source": "Sunlit Natural Materials Reading Nook.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2550549,
+      "sha256": "3f88cd831ab96c54c5ffab111fba166102d46a885b6927b4a7a705f53839378a",
+      "files": [
+        {
+          "file": "neem-reading-320.avif",
+          "width": 320,
+          "bytes": 18018
+        },
+        {
+          "file": "neem-reading-320.webp",
+          "width": 320,
+          "bytes": 30604
+        },
+        {
+          "file": "neem-reading-320.jpg",
+          "width": 320,
+          "bytes": 32580
+        },
+        {
+          "file": "neem-reading-640.avif",
+          "width": 640,
+          "bytes": 59565
+        },
+        {
+          "file": "neem-reading-640.webp",
+          "width": 640,
+          "bytes": 99464
+        },
+        {
+          "file": "neem-reading-640.jpg",
+          "width": 640,
+          "bytes": 110690
+        },
+        {
+          "file": "neem-reading-960.avif",
+          "width": 960,
+          "bytes": 110128
+        },
+        {
+          "file": "neem-reading-960.webp",
+          "width": 960,
+          "bytes": 184358
+        },
+        {
+          "file": "neem-reading-960.jpg",
+          "width": 960,
+          "bytes": 218545
+        },
+        {
+          "file": "neem-reading-1122.avif",
+          "width": 1122,
+          "bytes": 138115
+        },
+        {
+          "file": "neem-reading-1122.webp",
+          "width": 1122,
+          "bytes": 230312
+        },
+        {
+          "file": "neem-reading-1122.jpg",
+          "width": 1122,
+          "bytes": 280316
+        }
+      ]
+    },
+    {
+      "id": "neem-dining",
+      "source": "Sunlit Earthy Dining Room and Courtyard.png",
+      "width": 1915,
+      "height": 821,
+      "originalBytes": 2579994,
+      "sha256": "0100f10ef8dafbb355f6b2d3ac6c932f3c30d35be0344546619455c2a696c05b",
+      "files": [
+        {
+          "file": "neem-dining-320.avif",
+          "width": 320,
+          "bytes": 7055
+        },
+        {
+          "file": "neem-dining-320.webp",
+          "width": 320,
+          "bytes": 11578
+        },
+        {
+          "file": "neem-dining-320.jpg",
+          "width": 320,
+          "bytes": 12116
+        },
+        {
+          "file": "neem-dining-640.avif",
+          "width": 640,
+          "bytes": 21852
+        },
+        {
+          "file": "neem-dining-640.webp",
+          "width": 640,
+          "bytes": 37588
+        },
+        {
+          "file": "neem-dining-640.jpg",
+          "width": 640,
+          "bytes": 40245
+        },
+        {
+          "file": "neem-dining-960.avif",
+          "width": 960,
+          "bytes": 44726
+        },
+        {
+          "file": "neem-dining-960.webp",
+          "width": 960,
+          "bytes": 75924
+        },
+        {
+          "file": "neem-dining-960.jpg",
+          "width": 960,
+          "bytes": 82396
+        },
+        {
+          "file": "neem-dining-1440.avif",
+          "width": 1440,
+          "bytes": 87727
+        },
+        {
+          "file": "neem-dining-1440.webp",
+          "width": 1440,
+          "bytes": 145010
+        },
+        {
+          "file": "neem-dining-1440.jpg",
+          "width": 1440,
+          "bytes": 167020
+        },
+        {
+          "file": "neem-dining-1915.avif",
+          "width": 1915,
+          "bytes": 132323
+        },
+        {
+          "file": "neem-dining-1915.webp",
+          "width": 1915,
+          "bytes": 222988
+        },
+        {
+          "file": "neem-dining-1915.jpg",
+          "width": 1915,
+          "bytes": 268035
+        }
+      ]
+    },
+    {
+      "id": "estate-verandah",
+      "source": "Serene Rustic Veranda Retreat.png",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2953681,
+      "sha256": "0297afaaacc47d2e24293712cb2bdcd272d38bb97b0a578bc220ad200c67bf41",
+      "files": [
+        {
+          "file": "estate-verandah-320.avif",
+          "width": 320,
+          "bytes": 12377
+        },
+        {
+          "file": "estate-verandah-320.webp",
+          "width": 320,
+          "bytes": 21504
+        },
+        {
+          "file": "estate-verandah-320.jpg",
+          "width": 320,
+          "bytes": 20909
+        },
+        {
+          "file": "estate-verandah-640.avif",
+          "width": 640,
+          "bytes": 42843
+        },
+        {
+          "file": "estate-verandah-640.webp",
+          "width": 640,
+          "bytes": 72790
+        },
+        {
+          "file": "estate-verandah-640.jpg",
+          "width": 640,
+          "bytes": 72414
+        },
+        {
+          "file": "estate-verandah-960.avif",
+          "width": 960,
+          "bytes": 88253
+        },
+        {
+          "file": "estate-verandah-960.webp",
+          "width": 960,
+          "bytes": 148216
+        },
+        {
+          "file": "estate-verandah-960.jpg",
+          "width": 960,
+          "bytes": 149917
+        },
+        {
+          "file": "estate-verandah-1440.avif",
+          "width": 1440,
+          "bytes": 164716
+        },
+        {
+          "file": "estate-verandah-1440.webp",
+          "width": 1440,
+          "bytes": 278802
+        },
+        {
+          "file": "estate-verandah-1440.jpg",
+          "width": 1440,
+          "bytes": 300386
+        },
+        {
+          "file": "estate-verandah-1536.avif",
+          "width": 1536,
+          "bytes": 182219
+        },
+        {
+          "file": "estate-verandah-1536.webp",
+          "width": 1536,
+          "bytes": 312100
+        },
+        {
+          "file": "estate-verandah-1536.jpg",
+          "width": 1536,
+          "bytes": 335079
+        }
+      ]
+    },
+    {
+      "id": "estate-opening",
+      "source": "Misty Tropical Veranda Retreat.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2874880,
+      "sha256": "763fc9d8142008c150b039cbfcfb2f33eec6ade551087ab4106a0857b159d69a",
+      "files": [
+        {
+          "file": "estate-opening-320.avif",
+          "width": 320,
+          "bytes": 20653
+        },
+        {
+          "file": "estate-opening-320.webp",
+          "width": 320,
+          "bytes": 36754
+        },
+        {
+          "file": "estate-opening-320.jpg",
+          "width": 320,
+          "bytes": 35317
+        },
+        {
+          "file": "estate-opening-640.avif",
+          "width": 640,
+          "bytes": 73394
+        },
+        {
+          "file": "estate-opening-640.webp",
+          "width": 640,
+          "bytes": 124158
+        },
+        {
+          "file": "estate-opening-640.jpg",
+          "width": 640,
+          "bytes": 125331
+        },
+        {
+          "file": "estate-opening-960.avif",
+          "width": 960,
+          "bytes": 139078
+        },
+        {
+          "file": "estate-opening-960.webp",
+          "width": 960,
+          "bytes": 233488
+        },
+        {
+          "file": "estate-opening-960.jpg",
+          "width": 960,
+          "bytes": 254194
+        },
+        {
+          "file": "estate-opening-1122.avif",
+          "width": 1122,
+          "bytes": 173253
+        },
+        {
+          "file": "estate-opening-1122.webp",
+          "width": 1122,
+          "bytes": 296554
+        },
+        {
+          "file": "estate-opening-1122.jpg",
+          "width": 1122,
+          "bytes": 327811
+        }
+      ]
+    },
+    {
+      "id": "estate-bedroom",
+      "source": "Serene Rustic Bedroom with Misty Hills.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2635606,
+      "sha256": "a1e7cca117df361d50ab65120dd573b05e58a113e7e808fd997c6623c2447f23",
+      "files": [
+        {
+          "file": "estate-bedroom-320.avif",
+          "width": 320,
+          "bytes": 15609
+        },
+        {
+          "file": "estate-bedroom-320.webp",
+          "width": 320,
+          "bytes": 26200
+        },
+        {
+          "file": "estate-bedroom-320.jpg",
+          "width": 320,
+          "bytes": 27974
+        },
+        {
+          "file": "estate-bedroom-640.avif",
+          "width": 640,
+          "bytes": 52785
+        },
+        {
+          "file": "estate-bedroom-640.webp",
+          "width": 640,
+          "bytes": 91950
+        },
+        {
+          "file": "estate-bedroom-640.jpg",
+          "width": 640,
+          "bytes": 98563
+        },
+        {
+          "file": "estate-bedroom-960.avif",
+          "width": 960,
+          "bytes": 105307
+        },
+        {
+          "file": "estate-bedroom-960.webp",
+          "width": 960,
+          "bytes": 184040
+        },
+        {
+          "file": "estate-bedroom-960.jpg",
+          "width": 960,
+          "bytes": 206725
+        },
+        {
+          "file": "estate-bedroom-1122.avif",
+          "width": 1122,
+          "bytes": 134936
+        },
+        {
+          "file": "estate-bedroom-1122.webp",
+          "width": 1122,
+          "bytes": 233208
+        },
+        {
+          "file": "estate-bedroom-1122.jpg",
+          "width": 1122,
+          "bytes": 269374
+        }
+      ]
+    },
+    {
+      "id": "estate-materials",
+      "source": "Golden Veranda Overlooking Misty Hills.png",
+      "width": 1916,
+      "height": 821,
+      "originalBytes": 2718435,
+      "sha256": "9644bde1eb24e6f2c7615c7fe1bfacfd1a3e4ca41da32416b784a8c84f24cc5f",
+      "files": [
+        {
+          "file": "estate-materials-320.avif",
+          "width": 320,
+          "bytes": 8783
+        },
+        {
+          "file": "estate-materials-320.webp",
+          "width": 320,
+          "bytes": 15160
+        },
+        {
+          "file": "estate-materials-320.jpg",
+          "width": 320,
+          "bytes": 14519
+        },
+        {
+          "file": "estate-materials-640.avif",
+          "width": 640,
+          "bytes": 29361
+        },
+        {
+          "file": "estate-materials-640.webp",
+          "width": 640,
+          "bytes": 49968
+        },
+        {
+          "file": "estate-materials-640.jpg",
+          "width": 640,
+          "bytes": 49756
+        },
+        {
+          "file": "estate-materials-960.avif",
+          "width": 960,
+          "bytes": 58916
+        },
+        {
+          "file": "estate-materials-960.webp",
+          "width": 960,
+          "bytes": 98442
+        },
+        {
+          "file": "estate-materials-960.jpg",
+          "width": 960,
+          "bytes": 100940
+        },
+        {
+          "file": "estate-materials-1440.avif",
+          "width": 1440,
+          "bytes": 112278
+        },
+        {
+          "file": "estate-materials-1440.webp",
+          "width": 1440,
+          "bytes": 184216
+        },
+        {
+          "file": "estate-materials-1440.jpg",
+          "width": 1440,
+          "bytes": 202157
+        },
+        {
+          "file": "estate-materials-1916.avif",
+          "width": 1916,
+          "bytes": 166435
+        },
+        {
+          "file": "estate-materials-1916.webp",
+          "width": 1916,
+          "bytes": 276096
+        },
+        {
+          "file": "estate-materials-1916.jpg",
+          "width": 1916,
+          "bytes": 320565
+        }
+      ]
+    },
+    {
+      "id": "bookshop-entrance",
+      "source": "Sunlit Rangoli Books Interior.png",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2425717,
+      "sha256": "5dc1f9975fa44d391a5d4cc62be1f67923d4964307d89e260e46f6436cb483a7",
+      "files": [
+        {
+          "file": "bookshop-entrance-320.avif",
+          "width": 320,
+          "bytes": 10642
+        },
+        {
+          "file": "bookshop-entrance-320.webp",
+          "width": 320,
+          "bytes": 16878
+        },
+        {
+          "file": "bookshop-entrance-320.jpg",
+          "width": 320,
+          "bytes": 17757
+        },
+        {
+          "file": "bookshop-entrance-640.avif",
+          "width": 640,
+          "bytes": 32666
+        },
+        {
+          "file": "bookshop-entrance-640.webp",
+          "width": 640,
+          "bytes": 53998
+        },
+        {
+          "file": "bookshop-entrance-640.jpg",
+          "width": 640,
+          "bytes": 59280
+        },
+        {
+          "file": "bookshop-entrance-960.avif",
+          "width": 960,
+          "bytes": 61258
+        },
+        {
+          "file": "bookshop-entrance-960.webp",
+          "width": 960,
+          "bytes": 102410
+        },
+        {
+          "file": "bookshop-entrance-960.jpg",
+          "width": 960,
+          "bytes": 118083
+        },
+        {
+          "file": "bookshop-entrance-1440.avif",
+          "width": 1440,
+          "bytes": 110965
+        },
+        {
+          "file": "bookshop-entrance-1440.webp",
+          "width": 1440,
+          "bytes": 183356
+        },
+        {
+          "file": "bookshop-entrance-1440.jpg",
+          "width": 1440,
+          "bytes": 229602
+        },
+        {
+          "file": "bookshop-entrance-1536.avif",
+          "width": 1536,
+          "bytes": 122593
+        },
+        {
+          "file": "bookshop-entrance-1536.webp",
+          "width": 1536,
+          "bytes": 202844
+        },
+        {
+          "file": "bookshop-entrance-1536.jpg",
+          "width": 1536,
+          "bytes": 255079
+        }
+      ]
+    },
+    {
+      "id": "bookshop-opening",
+      "source": "Cozy Scandinavian Bookstore with Window Nook.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2442862,
+      "sha256": "0191e5728f25712386edafb601f3a9e2e2c745bb148fdf4df07dddaded53894b",
+      "files": [
+        {
+          "file": "bookshop-opening-320.avif",
+          "width": 320,
+          "bytes": 18623
+        },
+        {
+          "file": "bookshop-opening-320.webp",
+          "width": 320,
+          "bytes": 31314
+        },
+        {
+          "file": "bookshop-opening-320.jpg",
+          "width": 320,
+          "bytes": 33070
+        },
+        {
+          "file": "bookshop-opening-640.avif",
+          "width": 640,
+          "bytes": 56140
+        },
+        {
+          "file": "bookshop-opening-640.webp",
+          "width": 640,
+          "bytes": 93638
+        },
+        {
+          "file": "bookshop-opening-640.jpg",
+          "width": 640,
+          "bytes": 107889
+        },
+        {
+          "file": "bookshop-opening-960.avif",
+          "width": 960,
+          "bytes": 101225
+        },
+        {
+          "file": "bookshop-opening-960.webp",
+          "width": 960,
+          "bytes": 170566
+        },
+        {
+          "file": "bookshop-opening-960.jpg",
+          "width": 960,
+          "bytes": 208923
+        },
+        {
+          "file": "bookshop-opening-1122.avif",
+          "width": 1122,
+          "bytes": 126989
+        },
+        {
+          "file": "bookshop-opening-1122.webp",
+          "width": 1122,
+          "bytes": 205712
+        },
+        {
+          "file": "bookshop-opening-1122.jpg",
+          "width": 1122,
+          "bytes": 266653
+        }
+      ]
+    },
+    {
+      "id": "bookshop-reading",
+      "source": "Sunlit Scandinavian Bookstore Nook.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2656478,
+      "sha256": "c4d49d88e645aaaae917a4a703bcb2843c93967bfcc4cc8d0143cc8356a719bc",
+      "files": [
+        {
+          "file": "bookshop-reading-320.avif",
+          "width": 320,
+          "bytes": 22159
+        },
+        {
+          "file": "bookshop-reading-320.webp",
+          "width": 320,
+          "bytes": 37890
+        },
+        {
+          "file": "bookshop-reading-320.jpg",
+          "width": 320,
+          "bytes": 37039
+        },
+        {
+          "file": "bookshop-reading-640.avif",
+          "width": 640,
+          "bytes": 70770
+        },
+        {
+          "file": "bookshop-reading-640.webp",
+          "width": 640,
+          "bytes": 119966
+        },
+        {
+          "file": "bookshop-reading-640.jpg",
+          "width": 640,
+          "bytes": 126605
+        },
+        {
+          "file": "bookshop-reading-960.avif",
+          "width": 960,
+          "bytes": 126717
+        },
+        {
+          "file": "bookshop-reading-960.webp",
+          "width": 960,
+          "bytes": 212952
+        },
+        {
+          "file": "bookshop-reading-960.jpg",
+          "width": 960,
+          "bytes": 246617
+        },
+        {
+          "file": "bookshop-reading-1122.avif",
+          "width": 1122,
+          "bytes": 156858
+        },
+        {
+          "file": "bookshop-reading-1122.webp",
+          "width": 1122,
+          "bytes": 264838
+        },
+        {
+          "file": "bookshop-reading-1122.jpg",
+          "width": 1122,
+          "bytes": 314995
+        }
+      ]
+    },
+    {
+      "id": "bookshop-joinery",
+      "source": "Warm Scandinavian Bookstore Interior.png",
+      "width": 1916,
+      "height": 821,
+      "originalBytes": 2704541,
+      "sha256": "479329e1fcac7223471f04395f8f616c5ecea230da2da319ac9d6bae5c5e1440",
+      "files": [
+        {
+          "file": "bookshop-joinery-320.avif",
+          "width": 320,
+          "bytes": 9001
+        },
+        {
+          "file": "bookshop-joinery-320.webp",
+          "width": 320,
+          "bytes": 15210
+        },
+        {
+          "file": "bookshop-joinery-320.jpg",
+          "width": 320,
+          "bytes": 14761
+        },
+        {
+          "file": "bookshop-joinery-640.avif",
+          "width": 640,
+          "bytes": 29758
+        },
+        {
+          "file": "bookshop-joinery-640.webp",
+          "width": 640,
+          "bytes": 50896
+        },
+        {
+          "file": "bookshop-joinery-640.jpg",
+          "width": 640,
+          "bytes": 50568
+        },
+        {
+          "file": "bookshop-joinery-960.avif",
+          "width": 960,
+          "bytes": 59633
+        },
+        {
+          "file": "bookshop-joinery-960.webp",
+          "width": 960,
+          "bytes": 101584
+        },
+        {
+          "file": "bookshop-joinery-960.jpg",
+          "width": 960,
+          "bytes": 103244
+        },
+        {
+          "file": "bookshop-joinery-1440.avif",
+          "width": 1440,
+          "bytes": 112265
+        },
+        {
+          "file": "bookshop-joinery-1440.webp",
+          "width": 1440,
+          "bytes": 189202
+        },
+        {
+          "file": "bookshop-joinery-1440.jpg",
+          "width": 1440,
+          "bytes": 207171
+        },
+        {
+          "file": "bookshop-joinery-1916.avif",
+          "width": 1916,
+          "bytes": 166854
+        },
+        {
+          "file": "bookshop-joinery-1916.webp",
+          "width": 1916,
+          "bytes": 286076
+        },
+        {
+          "file": "bookshop-joinery-1916.jpg",
+          "width": 1916,
+          "bytes": 329567
+        }
+      ]
+    },
+    {
+      "id": "cafe-courtyard",
+      "source": "Serene Courtyard Café in Mysuru.png",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2972311,
+      "sha256": "557e332ec4325415402c75fc7c6824e0b997dca7364b68417a2af10da76ff1fe",
+      "files": [
+        {
+          "file": "cafe-courtyard-320.avif",
+          "width": 320,
+          "bytes": 14248
+        },
+        {
+          "file": "cafe-courtyard-320.webp",
+          "width": 320,
+          "bytes": 24452
+        },
+        {
+          "file": "cafe-courtyard-320.jpg",
+          "width": 320,
+          "bytes": 22593
+        },
+        {
+          "file": "cafe-courtyard-640.avif",
+          "width": 640,
+          "bytes": 47813
+        },
+        {
+          "file": "cafe-courtyard-640.webp",
+          "width": 640,
+          "bytes": 82648
+        },
+        {
+          "file": "cafe-courtyard-640.jpg",
+          "width": 640,
+          "bytes": 79263
+        },
+        {
+          "file": "cafe-courtyard-960.avif",
+          "width": 960,
+          "bytes": 94386
+        },
+        {
+          "file": "cafe-courtyard-960.webp",
+          "width": 960,
+          "bytes": 161038
+        },
+        {
+          "file": "cafe-courtyard-960.jpg",
+          "width": 960,
+          "bytes": 161278
+        },
+        {
+          "file": "cafe-courtyard-1440.avif",
+          "width": 1440,
+          "bytes": 171285
+        },
+        {
+          "file": "cafe-courtyard-1440.webp",
+          "width": 1440,
+          "bytes": 292436
+        },
+        {
+          "file": "cafe-courtyard-1440.jpg",
+          "width": 1440,
+          "bytes": 316371
+        },
+        {
+          "file": "cafe-courtyard-1536.avif",
+          "width": 1536,
+          "bytes": 189865
+        },
+        {
+          "file": "cafe-courtyard-1536.webp",
+          "width": 1536,
+          "bytes": 332154
+        },
+        {
+          "file": "cafe-courtyard-1536.jpg",
+          "width": 1536,
+          "bytes": 353235
+        }
+      ]
+    },
+    {
+      "id": "cafe-opening",
+      "source": "Serene Courtyard Café in Golden Light.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2926483,
+      "sha256": "c13cace6dc84f0c6e9175137e0b6a2389758cc6c774cadb3fc3b19fd27f9df85",
+      "files": [
+        {
+          "file": "cafe-opening-320.avif",
+          "width": 320,
+          "bytes": 25904
+        },
+        {
+          "file": "cafe-opening-320.webp",
+          "width": 320,
+          "bytes": 45218
+        },
+        {
+          "file": "cafe-opening-320.jpg",
+          "width": 320,
+          "bytes": 41742
+        },
+        {
+          "file": "cafe-opening-640.avif",
+          "width": 640,
+          "bytes": 85684
+        },
+        {
+          "file": "cafe-opening-640.webp",
+          "width": 640,
+          "bytes": 147656
+        },
+        {
+          "file": "cafe-opening-640.jpg",
+          "width": 640,
+          "bytes": 144676
+        },
+        {
+          "file": "cafe-opening-960.avif",
+          "width": 960,
+          "bytes": 155743
+        },
+        {
+          "file": "cafe-opening-960.webp",
+          "width": 960,
+          "bytes": 272646
+        },
+        {
+          "file": "cafe-opening-960.jpg",
+          "width": 960,
+          "bytes": 285802
+        },
+        {
+          "file": "cafe-opening-1122.avif",
+          "width": 1122,
+          "bytes": 191848
+        },
+        {
+          "file": "cafe-opening-1122.webp",
+          "width": 1122,
+          "bytes": 331720
+        },
+        {
+          "file": "cafe-opening-1122.jpg",
+          "width": 1122,
+          "bytes": 366190
+        }
+      ]
+    },
+    {
+      "id": "cafe-counter",
+      "source": "Sunlit Courtyard Café Interior.png",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2618179,
+      "sha256": "bed1066de384a1397eb6fa62afd1fa3f02e2cc63aac69c2e4fd4ad10d166aafa",
+      "files": [
+        {
+          "file": "cafe-counter-320.avif",
+          "width": 320,
+          "bytes": 21885
+        },
+        {
+          "file": "cafe-counter-320.webp",
+          "width": 320,
+          "bytes": 36760
+        },
+        {
+          "file": "cafe-counter-320.jpg",
+          "width": 320,
+          "bytes": 36221
+        },
+        {
+          "file": "cafe-counter-640.avif",
+          "width": 640,
+          "bytes": 67539
+        },
+        {
+          "file": "cafe-counter-640.webp",
+          "width": 640,
+          "bytes": 114068
+        },
+        {
+          "file": "cafe-counter-640.jpg",
+          "width": 640,
+          "bytes": 122334
+        },
+        {
+          "file": "cafe-counter-960.avif",
+          "width": 960,
+          "bytes": 119353
+        },
+        {
+          "file": "cafe-counter-960.webp",
+          "width": 960,
+          "bytes": 204622
+        },
+        {
+          "file": "cafe-counter-960.jpg",
+          "width": 960,
+          "bytes": 237092
+        },
+        {
+          "file": "cafe-counter-1122.avif",
+          "width": 1122,
+          "bytes": 147829
+        },
+        {
+          "file": "cafe-counter-1122.webp",
+          "width": 1122,
+          "bytes": 253280
+        },
+        {
+          "file": "cafe-counter-1122.jpg",
+          "width": 1122,
+          "bytes": 303647
+        }
+      ]
+    },
+    {
+      "id": "cafe-cane",
+      "source": "Sunlit Mediterranean Courtyard Café.png",
+      "width": 1916,
+      "height": 821,
+      "originalBytes": 2918998,
+      "sha256": "e0f089b627f773bb3a5c36fcd3e23d0b22b249a10b7d7f23451c01d4fc5c3d95",
+      "files": [
+        {
+          "file": "cafe-cane-320.avif",
+          "width": 320,
+          "bytes": 10260
+        },
+        {
+          "file": "cafe-cane-320.webp",
+          "width": 320,
+          "bytes": 17634
+        },
+        {
+          "file": "cafe-cane-320.jpg",
+          "width": 320,
+          "bytes": 16060
+        },
+        {
+          "file": "cafe-cane-640.avif",
+          "width": 640,
+          "bytes": 35048
+        },
+        {
+          "file": "cafe-cane-640.webp",
+          "width": 640,
+          "bytes": 60436
+        },
+        {
+          "file": "cafe-cane-640.jpg",
+          "width": 640,
+          "bytes": 56910
+        },
+        {
+          "file": "cafe-cane-960.avif",
+          "width": 960,
+          "bytes": 70587
+        },
+        {
+          "file": "cafe-cane-960.webp",
+          "width": 960,
+          "bytes": 119990
+        },
+        {
+          "file": "cafe-cane-960.jpg",
+          "width": 960,
+          "bytes": 117568
+        },
+        {
+          "file": "cafe-cane-1440.avif",
+          "width": 1440,
+          "bytes": 132728
+        },
+        {
+          "file": "cafe-cane-1440.webp",
+          "width": 1440,
+          "bytes": 231770
+        },
+        {
+          "file": "cafe-cane-1440.jpg",
+          "width": 1440,
+          "bytes": 236933
+        },
+        {
+          "file": "cafe-cane-1916.avif",
+          "width": 1916,
+          "bytes": 196821
+        },
+        {
+          "file": "cafe-cane-1916.webp",
+          "width": 1916,
+          "bytes": 342770
+        },
+        {
+          "file": "cafe-cane-1916.jpg",
+          "width": 1916,
+          "bytes": 375202
+        }
+      ]
+    },
+    {
+      "id": "studio-material-table",
+      "source": "Warm Materials Moodboard Studio.png",
+      "width": 1916,
+      "height": 821,
+      "originalBytes": 2416732,
+      "sha256": "a6bd291be2bb4f29019e0e087adada44715187c66e79e73e8a6d2e82866400a3",
+      "files": [
+        {
+          "file": "studio-material-table-320.avif",
+          "width": 320,
+          "bytes": 8585
+        },
+        {
+          "file": "studio-material-table-320.webp",
+          "width": 320,
+          "bytes": 14710
+        },
+        {
+          "file": "studio-material-table-320.jpg",
+          "width": 320,
+          "bytes": 14626
+        },
+        {
+          "file": "studio-material-table-640.avif",
+          "width": 640,
+          "bytes": 25391
+        },
+        {
+          "file": "studio-material-table-640.webp",
+          "width": 640,
+          "bytes": 46716
+        },
+        {
+          "file": "studio-material-table-640.jpg",
+          "width": 640,
+          "bytes": 48201
+        },
+        {
+          "file": "studio-material-table-960.avif",
+          "width": 960,
+          "bytes": 47953
+        },
+        {
+          "file": "studio-material-table-960.webp",
+          "width": 960,
+          "bytes": 83736
+        },
+        {
+          "file": "studio-material-table-960.jpg",
+          "width": 960,
+          "bytes": 93469
+        },
+        {
+          "file": "studio-material-table-1440.avif",
+          "width": 1440,
+          "bytes": 86089
+        },
+        {
+          "file": "studio-material-table-1440.webp",
+          "width": 1440,
+          "bytes": 146894
+        },
+        {
+          "file": "studio-material-table-1440.jpg",
+          "width": 1440,
+          "bytes": 178219
+        },
+        {
+          "file": "studio-material-table-1916.avif",
+          "width": 1916,
+          "bytes": 125909
+        },
+        {
+          "file": "studio-material-table-1916.webp",
+          "width": 1916,
+          "bytes": 212626
+        },
+        {
+          "file": "studio-material-table-1916.jpg",
+          "width": 1916,
+          "bytes": 273042
+        }
+      ]
+    }
+  ]
+}

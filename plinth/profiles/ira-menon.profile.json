@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema/brand-profile.schema.json",
+  "plinthVersion": "1.0",
+  "client": {
+    "id": "ira-menon",
+    "name": "Ira Menon Interiors",
+    "city": "Bengaluru",
+    "locale": "en-IN"
+  },
+  "dials": {
+    "displayFace": "literary",
+    "accent": "neem",
+    "temperature": "warm",
+    "typeContrast": "standard",
+    "density": "airy",
+    "composition": {
+      "header": "axial",
+      "hero": "plate",
+      "index": "staggered"
+    },
+    "ground": "lime"
+  },
+  "exceptions": [],
+  "distinctFrom": [
+    "studio-kiln"
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "$description": "Primitive tokens. Raw values only; never referenced by components.",
+  "color": {
+    "neutral": {
+      "warm": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.985,
+              0.006,
+              85
+            ],
+            "hex": "#FCFAF6"
+          },
+          "$description": "Lime wash"
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.965,
+              0.008,
+              85
+            ],
+            "hex": "#F6F3ED"
+          },
+          "$description": "Lime plaster"
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.93,
+              0.011,
+              80
+            ],
+            "hex": "#ECE7E0"
+          },
+          "$description": "Chuna, aged"
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.86,
+              0.012,
+              75
+            ],
+            "hex": "#D6D0C9"
+          },
+          "$description": "Jaisalmer dust"
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.72,
+              0.012,
+              70
+            ],
+            "hex": "#AAA39D"
+          },
+          "$description": "Kota, honed"
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.58,
+              0.011,
+              70
+            ],
+            "hex": "#7F7973"
+          },
+          "$description": "Kota, wet"
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.47,
+              0.01,
+              70
+            ],
+            "hex": "#5F5A55"
+          },
+          "$description": "Basalt"
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.36,
+              0.009,
+              70
+            ],
+            "hex": "#403C38"
+          },
+          "$description": "Teak, oiled"
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.26,
+              0.008,
+              70
+            ],
+            "hex": "#272320"
+          },
+          "$description": "Charcoal"
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.19,
+              0.006,
+              70
+            ],
+            "hex": "#161311"
+          },
+          "$description": "Indian ink"
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.15,
+              0.005,
+              70
+            ],
+            "hex": "#0D0B09"
+          },
+          "$description": "Night"
+        }
+      },
+      "stone": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.985,
+              0.002,
+              95
+            ],
+            "hex": "#FAFAF9"
+          },
+          "$description": "Lime wash"
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.965,
+              0.003,
+              95
+            ],
+            "hex": "#F4F3F1"
+          },
+          "$description": "Lime plaster"
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.93,
+              0.004,
+              95
+            ],
+            "hex": "#E8E8E5"
+          },
+          "$description": "Chuna, aged"
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.86,
+              0.004,
+              95
+            ],
+            "hex": "#D2D1CE"
+          },
+          "$description": "Jaisalmer dust"
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.72,
+              0.004,
+              95
+            ],
+            "hex": "#A5A4A2"
+          },
+          "$description": "Kota, honed"
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.58,
+              0.004,
+              95
+            ],
+            "hex": "#7B7A78"
+          },
+          "$description": "Kota, wet"
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.47,
+              0.003,
+              95
+            ],
+            "hex": "#5B5B59"
+          },
+          "$description": "Basalt"
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.36,
+              0.003,
+              95
+            ],
+            "hex": "#3D3D3B"
+          },
+          "$description": "Teak, oiled"
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.26,
+              0.003,
+              95
+            ],
+            "hex": "#242422"
+          },
+          "$description": "Charcoal"
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.19,
+              0.002,
+              95
+            ],
+            "hex": "#141413"
+          },
+          "$description": "Indian ink"
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.15,
+              0.002,
+              95
+            ],
+            "hex": "#0B0B0A"
+          },
+          "$description": "Night"
+        }
+      },
+      "cool": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.985,
+              0.004,
+              250
+            ],
+            "hex": "#F8FAFD"
+          },
+          "$description": "Lime wash"
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.965,
+              0.006,
+              250
+            ],
+            "hex": "#F0F4F7"
+          },
+          "$description": "Lime plaster"
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.93,
+              0.008,
+              250
+            ],
+            "hex": "#E4E8ED"
+          },
+          "$description": "Chuna, aged"
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.86,
+              0.008,
+              250
+            ],
+            "hex": "#CDD1D6"
+          },
+          "$description": "Jaisalmer dust"
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.72,
+              0.008,
+              250
+            ],
+            "hex": "#A1A5A9"
+          },
+          "$description": "Kota, honed"
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.58,
+              0.008,
+              250
+            ],
+            "hex": "#777B7F"
+          },
+          "$description": "Kota, wet"
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.47,
+              0.007,
+              250
+            ],
+            "hex": "#585B5F"
+          },
+          "$description": "Basalt"
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.36,
+              0.006,
+              250
+            ],
+            "hex": "#3B3D40"
+          },
+          "$description": "Teak, oiled"
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.26,
+              0.006,
+              250
+            ],
+            "hex": "#222427"
+          },
+          "$description": "Charcoal"
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.19,
+              0.004,
+              250
+            ],
+            "hex": "#121416"
+          },
+          "$description": "Indian ink"
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.15,
+              0.003,
+              250
+            ],
+            "hex": "#0A0B0C"
+          },
+          "$description": "Night"
+        }
+      }
+    },
+    "accent": {
+      "laterite": {
+        "base": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.52,
+              0.09,
+              50
+            ],
+            "hex": "#925837"
+          }
+        },
+        "lift": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.74,
+              0.09,
+              50
+            ],
+            "hex": "#D99A77"
+          }
+        },
+        "tint": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.93,
+              0.03,
+              50
+            ],
+            "hex": "#F9E3D7"
+          }
+        },
+        "deep": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3,
+              0.03,
+              50
+            ],
+            "hex": "#3A2A20"
+          }
+        }
+      },
+      "indigo": {
+        "base": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.52,
+              0.09,
+              262
+            ],
+            "hex": "#4C689D"
+          }
+        },
+        "lift": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.74,
+              0.09,
+              262
+            ],
+            "hex": "#8CABE4"
+          }
+        },
+        "tint": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.93,
+              0.03,
+              262
+            ],
+            "hex": "#DDE8FD"
+          }
+        },
+        "deep": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3,
+              0.03,
+              262
+            ],
+            "hex": "#262E3D"
+          }
+        }
+      },
+      "neem": {
+        "base": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.52,
+              0.09,
+              150
+            ],
+            "hex": "#3F774D"
+          }
+        },
+        "lift": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.74,
+              0.09,
+              150
+            ],
+            "hex": "#81BB8D"
+          }
+        },
+        "tint": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.93,
+              0.03,
+              150
+            ],
+            "hex": "#DBEEDE"
+          }
+        },
+        "deep": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3,
+              0.03,
+              150
+            ],
+            "hex": "#233226"
+          }
+        }
+      },
+      "sandstone": {
+        "base": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.52,
+              0.09,
+              80
+            ],
+            "hex": "#846324"
+          }
+        },
+        "lift": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.74,
+              0.09,
+              80
+            ],
+            "hex": "#C9A567"
+          }
+        },
+        "tint": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.93,
+              0.03,
+              80
+            ],
+            "hex": "#F3E6D2"
+          }
+        },
+        "deep": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3,
+              0.03,
+              80
+            ],
+            "hex": "#362C1C"
+          }
+        }
+      }
+    },
+    "status": {
+      "error": {
+        "base": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5,
+              0.14,
+              25
+            ],
+            "hex": "#A43B38"
+          }
+        },
+        "lift": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.72,
+              0.12,
+              25
+            ],
+            "hex": "#E6857E"
+          }
+        }
+      },
+      "success": {
+        "base": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5,
+              0.09,
+              155
+            ],
+            "hex": "#33724C"
+          }
+        },
+        "lift": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.74,
+              0.09,
+              155
+            ],
+            "hex": "#7CBC92"
+          }
+        }
+      }
+    },
+    "scrim": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.15,
+          0.005,
+          70
+        ],
+        "alpha": 0.55,
+        "hex": "#0D0B09"
+      },
+      "$description": "Night-photo title scrim only."
+    }
+  },
+  "font": {
+    "family": {
+      "newsreader": {
+        "$type": "fontFamily",
+        "$value": [
+          "Newsreader",
+          "Tiro Devanagari Hindi",
+          "Georgia",
+          "serif"
+        ]
+      },
+      "plexSerif": {
+        "$type": "fontFamily",
+        "$value": [
+          "IBM Plex Serif",
+          "Tiro Devanagari Hindi",
+          "Georgia",
+          "serif"
+        ]
+      },
+      "archivo": {
+        "$type": "fontFamily",
+        "$value": [
+          "Archivo",
+          "Noto Sans Devanagari",
+          "system-ui",
+          "sans-serif"
+        ]
+      },
+      "albertSans": {
+        "$type": "fontFamily",
+        "$value": [
+          "Albert Sans",
+          "Noto Sans Devanagari",
+          "system-ui",
+          "sans-serif"
+        ]
+      },
+      "plexMono": {
+        "$type": "fontFamily",
+        "$value": [
+          "IBM Plex Mono",
+          "ui-monospace",
+          "monospace"
+        ]
+      }
+    },
+    "weight": {
+      "light": {
+        "$type": "fontWeight",
+        "$value": 300
+      },
+      "regular": {
+        "$type": "fontWeight",
+        "$value": 400
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": 500
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": 600
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      }
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      }
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      }
+    },
+    "9": {
+      "$type": "dimension",
+      "$value": {
+        "value": 96,
+        "unit": "px"
+      }
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": {
+        "value": 128,
+        "unit": "px"
+      }
+    },
+    "11": {
+      "$type": "dimension",
+      "$value": {
+        "value": 192,
+        "unit": "px"
+      }
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": {
+        "value": 256,
+        "unit": "px"
+      }
+    }
+  },
+  "duration": {
+    "instant": {
+      "$type": "duration",
+      "$value": {
+        "value": 120,
+        "unit": "ms"
+      }
+    },
+    "base": {
+      "$type": "duration",
+      "$value": {
+        "value": 240,
+        "unit": "ms"
+      }
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": {
+        "value": 480,
+        "unit": "ms"
+      }
+    },
+    "page": {
+      "$type": "duration",
+      "$value": {
+        "value": 800,
+        "unit": "ms"
+      }
+    }
+  },
+  "easing": {
+    "standard": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.2,
+        0,
+        0,
+        1
+      ]
+    },
+    "out": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ]
+    },
+    "in": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.4,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "breakpoint": {
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 480,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 768,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1024,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1280,
+        "unit": "px"
+      }
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1600,
+        "unit": "px"
+      }
+    }
+  }
+}

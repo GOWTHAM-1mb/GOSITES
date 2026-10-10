@@ -1,0 +1,131 @@
+/* Plinth v1.0 — tokens.css. Generated from tokens.json. Do not hand-edit; client overrides go in profiles/<client>.brand.css. */
+:root {
+  --p-neutral-warm-50: oklch(0.985 0.006 85); /* #FCFAF6 */
+  --p-neutral-warm-100: oklch(0.965 0.008 85); /* #F6F3ED */
+  --p-neutral-warm-200: oklch(0.93 0.011 80); /* #ECE7E0 */
+  --p-neutral-warm-300: oklch(0.86 0.012 75); /* #D6D0C9 */
+  --p-neutral-warm-400: oklch(0.72 0.012 70); /* #AAA39D */
+  --p-neutral-warm-500: oklch(0.58 0.011 70); /* #7F7973 */
+  --p-neutral-warm-600: oklch(0.47 0.01 70); /* #5F5A55 */
+  --p-neutral-warm-700: oklch(0.36 0.009 70); /* #403C38 */
+  --p-neutral-warm-800: oklch(0.26 0.008 70); /* #272320 */
+  --p-neutral-warm-900: oklch(0.19 0.006 70); /* #161311 */
+  --p-neutral-warm-950: oklch(0.15 0.005 70); /* #0D0B09 */
+  --p-neutral-stone-50: oklch(0.985 0.002 95); /* #FAFAF9 */
+  --p-neutral-stone-100: oklch(0.965 0.003 95); /* #F4F3F1 */
+  --p-neutral-stone-200: oklch(0.93 0.004 95); /* #E8E8E5 */
+  --p-neutral-stone-300: oklch(0.86 0.004 95); /* #D2D1CE */
+  --p-neutral-stone-400: oklch(0.72 0.004 95); /* #A5A4A2 */
+  --p-neutral-stone-500: oklch(0.58 0.004 95); /* #7B7A78 */
+  --p-neutral-stone-600: oklch(0.47 0.003 95); /* #5B5B59 */
+  --p-neutral-stone-700: oklch(0.36 0.003 95); /* #3D3D3B */
+  --p-neutral-stone-800: oklch(0.26 0.003 95); /* #242422 */
+  --p-neutral-stone-900: oklch(0.19 0.002 95); /* #141413 */
+  --p-neutral-stone-950: oklch(0.15 0.002 95); /* #0B0B0A */
+  --p-neutral-cool-50: oklch(0.985 0.004 250); /* #F8FAFD */
+  --p-neutral-cool-100: oklch(0.965 0.006 250); /* #F0F4F7 */
+  --p-neutral-cool-200: oklch(0.93 0.008 250); /* #E4E8ED */
+  --p-neutral-cool-300: oklch(0.86 0.008 250); /* #CDD1D6 */
+  --p-neutral-cool-400: oklch(0.72 0.008 250); /* #A1A5A9 */
+  --p-neutral-cool-500: oklch(0.58 0.008 250); /* #777B7F */
+  --p-neutral-cool-600: oklch(0.47 0.007 250); /* #585B5F */
+  --p-neutral-cool-700: oklch(0.36 0.006 250); /* #3B3D40 */
+  --p-neutral-cool-800: oklch(0.26 0.006 250); /* #222427 */
+  --p-neutral-cool-900: oklch(0.19 0.004 250); /* #121416 */
+  --p-neutral-cool-950: oklch(0.15 0.003 250); /* #0A0B0C */
+  --p-accent-laterite-base: oklch(0.52 0.09 50); /* #925837 */
+  --p-accent-laterite-lift: oklch(0.74 0.09 50); /* #D99A77 */
+  --p-accent-laterite-tint: oklch(0.93 0.03 50); /* #F9E3D7 */
+  --p-accent-laterite-deep: oklch(0.3 0.03 50); /* #3A2A20 */
+  --p-accent-indigo-base: oklch(0.52 0.09 262); /* #4C689D */
+  --p-accent-indigo-lift: oklch(0.74 0.09 262); /* #8CABE4 */
+  --p-accent-indigo-tint: oklch(0.93 0.03 262); /* #DDE8FD */
+  --p-accent-indigo-deep: oklch(0.3 0.03 262); /* #262E3D */
+  --p-accent-neem-base: oklch(0.52 0.09 150); /* #3F774D */
+  --p-accent-neem-lift: oklch(0.74 0.09 150); /* #81BB8D */
+  --p-accent-neem-tint: oklch(0.93 0.03 150); /* #DBEEDE */
+  --p-accent-neem-deep: oklch(0.3 0.03 150); /* #233226 */
+  --p-accent-sandstone-base: oklch(0.52 0.09 80); /* #846324 */
+  --p-accent-sandstone-lift: oklch(0.74 0.09 80); /* #C9A567 */
+  --p-accent-sandstone-tint: oklch(0.93 0.03 80); /* #F3E6D2 */
+  --p-accent-sandstone-deep: oklch(0.3 0.03 80); /* #362C1C */
+  --p-error: oklch(0.5 0.14 25); --p-error-lift: oklch(0.72 0.12 25);
+  --p-success: oklch(0.5 0.09 155); --p-success-lift: oklch(0.74 0.09 155);
+  --scrim: oklch(0.15 0.005 70 / 0.55);
+
+  --font-text: 'Albert Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+  --space-11: 192px;
+  --space-12: 256px;
+
+  --type-display-xl: calc(var(--type-display-xl-base) * var(--display-scale));
+  --type-display-l: calc(var(--type-display-l-base) * var(--display-scale));
+  --type-h1: calc(clamp(34px, 26.254px + 2.066vw, 56px) * var(--display-scale));
+  --type-h2: calc(clamp(26px, 21.775px + 1.127vw, 38px) * var(--display-scale));
+  --type-h3: clamp(20px, 18.592px + 0.376vw, 24px);
+  --type-lede: clamp(19px, 17.592px + 0.376vw, 23px);
+  --type-body: clamp(16px, 15.648px + 0.094vw, 17px);
+  --type-body-s: 14px; --type-label: 12px; --type-meta: 12px;
+  --lh-display-xl: 0.95; --lh-display-l: 1; --lh-h1: 1.08; --lh-h2: 1.15; --lh-h3: 1.3; --lh-lede: 1.45; --lh-body: 1.6;
+
+  --section-s: calc(clamp(64px, 41.465px + 6.009vw, 128px) * var(--density));
+  --section-m: calc(clamp(96px, 62.197px + 9.014vw, 192px) * var(--density));
+  --section-l: calc(clamp(128px, 82.93px + 12.019vw, 256px) * var(--density));
+
+  --container-max: 1680px; --margin: clamp(20px, -1.127px + 5.634vw, 80px); --gutter: clamp(16px, 10.366px + 1.502vw, 32px);
+  --rail-width: 240px; --header-h: 64px; --touch-target: 44px; --field-h: 48px;
+  --measure-body: 66ch; --measure-lede: 34ch; --measure-head: 22ch;
+  --radius: 0; --shadow: none; --line-w: 1px; --focus-w: 2px; --focus-offset: 3px;
+  --z-header: 100; --z-menu: 200; --z-viewer: 300; --z-skip: 400;
+  --ratio-landscape: 3/2; --ratio-portrait: 4/5; --ratio-square: 1/1; --ratio-tall: 2/3; --ratio-panorama: 21/9;
+
+  --dur-instant: 120ms; --dur-base: 240ms; --dur-slow: 480ms; --dur-page: 800ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.4, 0, 1, 1);
+}
+@media (min-width: 1024px) { :root { --header-h: 80px; } }
+
+/* DIAL 3 — temperature */
+:root, [data-temperature="warm"] { --neutral-50: var(--p-neutral-warm-50); --neutral-100: var(--p-neutral-warm-100); --neutral-200: var(--p-neutral-warm-200); --neutral-300: var(--p-neutral-warm-300); --neutral-400: var(--p-neutral-warm-400); --neutral-500: var(--p-neutral-warm-500); --neutral-600: var(--p-neutral-warm-600); --neutral-700: var(--p-neutral-warm-700); --neutral-800: var(--p-neutral-warm-800); --neutral-900: var(--p-neutral-warm-900); --neutral-950: var(--p-neutral-warm-950); }
+[data-temperature="stone"] { --neutral-50: var(--p-neutral-stone-50); --neutral-100: var(--p-neutral-stone-100); --neutral-200: var(--p-neutral-stone-200); --neutral-300: var(--p-neutral-stone-300); --neutral-400: var(--p-neutral-stone-400); --neutral-500: var(--p-neutral-stone-500); --neutral-600: var(--p-neutral-stone-600); --neutral-700: var(--p-neutral-stone-700); --neutral-800: var(--p-neutral-stone-800); --neutral-900: var(--p-neutral-stone-900); --neutral-950: var(--p-neutral-stone-950); }
+[data-temperature="cool"] { --neutral-50: var(--p-neutral-cool-50); --neutral-100: var(--p-neutral-cool-100); --neutral-200: var(--p-neutral-cool-200); --neutral-300: var(--p-neutral-cool-300); --neutral-400: var(--p-neutral-cool-400); --neutral-500: var(--p-neutral-cool-500); --neutral-600: var(--p-neutral-cool-600); --neutral-700: var(--p-neutral-cool-700); --neutral-800: var(--p-neutral-cool-800); --neutral-900: var(--p-neutral-cool-900); --neutral-950: var(--p-neutral-cool-950); }
+
+/* DIAL 2 — accent ("exception" values live in brand.css) */
+:root, [data-accent="laterite"] { --accent: var(--p-accent-laterite-base); --accent-lift: var(--p-accent-laterite-lift); --accent-tint: var(--p-accent-laterite-tint); --accent-deep: var(--p-accent-laterite-deep); }
+[data-accent="indigo"] { --accent: var(--p-accent-indigo-base); --accent-lift: var(--p-accent-indigo-lift); --accent-tint: var(--p-accent-indigo-tint); --accent-deep: var(--p-accent-indigo-deep); }
+[data-accent="neem"] { --accent: var(--p-accent-neem-base); --accent-lift: var(--p-accent-neem-lift); --accent-tint: var(--p-accent-neem-tint); --accent-deep: var(--p-accent-neem-deep); }
+[data-accent="sandstone"] { --accent: var(--p-accent-sandstone-base); --accent-lift: var(--p-accent-sandstone-lift); --accent-tint: var(--p-accent-sandstone-tint); --accent-deep: var(--p-accent-sandstone-deep); }
+
+/* DIAL 1 — display face */
+:root, [data-display="literary"] { --font-display: 'Newsreader', 'Tiro Devanagari Hindi', Georgia, serif; --display-scale: 1; --display-tracking: -0.025em; --display-weight: 300; --display-em-style: italic; --display-em-weight: 300; }
+[data-display="technical"] { --font-display: 'IBM Plex Serif', 'Tiro Devanagari Hindi', Georgia, serif; --display-scale: 0.92; --display-tracking: -0.025em; --display-weight: 300; --display-em-style: italic; --display-em-weight: 300; }
+[data-display="modernist"] { --font-display: 'Archivo', 'Noto Sans Devanagari', system-ui, sans-serif; --display-scale: 0.92; --display-tracking: -0.04em; --display-weight: 300; --display-em-style: normal; --display-em-weight: 400; }
+
+/* DIAL 4 — type contrast (display sizes only) */
+[data-contrast="quiet"] { --type-display-xl-base: clamp(48px, 36.028px + 3.192vw, 82px); --type-display-l-base: clamp(40px, 31.549px + 2.254vw, 64px); }
+:root, [data-contrast="standard"] { --type-display-xl-base: clamp(56px, 32.056px + 6.385vw, 124px); --type-display-l-base: clamp(44px, 30.62px + 3.568vw, 82px); }
+[data-contrast="monumental"] { --type-display-xl-base: clamp(60px, 24.789px + 9.39vw, 160px); --type-display-l-base: clamp(48px, 31.099px + 4.507vw, 96px); }
+
+/* DIAL 5 — density (section spacing only) */
+[data-density="airy"] { --density: 1.1; }
+:root, [data-density="standard"] { --density: 1; }
+[data-density="compact"] { --density: 0.85; }
+@media (min-width: 768px) { [data-density="airy"] { --density: 1.25; } [data-density="compact"] { --density: 0.8; } }
+
+/* DIAL 7 — ground. data-ground on <html> = site default; data-theme on a section inverts locally. */
+:root, [data-ground="lime"], [data-theme="lime"] { --surface-page: var(--neutral-50); --surface-raised: var(--neutral-100); --surface-sunken: var(--neutral-200); --surface-inverse: var(--neutral-900); --surface-hover: var(--neutral-100); --surface-disabled: var(--neutral-200); --text-primary: var(--neutral-900); --text-secondary: var(--neutral-600); --text-tertiary: var(--neutral-500); --text-inverse: var(--neutral-50); --text-disabled: var(--neutral-400); --line-hair: var(--neutral-300); --line-rule: var(--neutral-900); --action-primary: var(--neutral-900); --action-primary-hover: var(--neutral-700); --action-primary-active: var(--neutral-800); --action-on-primary: var(--neutral-50); --accent-ui: var(--accent); --accent-bg: var(--accent-tint); --focus-ring: var(--accent); --status-error: var(--p-error); --status-success: var(--p-success); color-scheme: light; }
+[data-ground="ink"], [data-theme="ink"] { --surface-page: var(--neutral-950); --surface-raised: var(--neutral-900); --surface-sunken: var(--neutral-800); --surface-inverse: var(--neutral-50); --surface-hover: var(--neutral-900); --surface-disabled: var(--neutral-800); --text-primary: var(--neutral-100); --text-secondary: var(--neutral-400); --text-tertiary: var(--neutral-500); --text-inverse: var(--neutral-900); --text-disabled: var(--neutral-600); --line-hair: var(--neutral-700); --line-rule: var(--neutral-100); --action-primary: var(--neutral-50); --action-primary-hover: var(--neutral-200); --action-primary-active: var(--neutral-300); --action-on-primary: var(--neutral-900); --accent-ui: var(--accent-lift); --accent-bg: var(--accent-deep); --focus-ring: var(--accent-lift); --status-error: var(--p-error-lift); --status-success: var(--p-success-lift); color-scheme: dark; }
+[data-theme] { background: var(--surface-page); color: var(--text-primary); }
+
+/* DIAL 6 — composition: data-header / data-hero / data-index on <html>; the matching component variant is used in markup. */
+
+@media (prefers-reduced-motion: reduce) { :root { --dur-instant: 0ms; --dur-base: 0ms; --dur-slow: 0ms; --dur-page: 120ms; } }

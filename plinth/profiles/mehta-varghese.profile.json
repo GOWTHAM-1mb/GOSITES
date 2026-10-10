@@ -1,0 +1,43 @@
+{
+  "$schema": "../schema/brand-profile.schema.json",
+  "plinthVersion": "1.0",
+  "client": {
+    "id": "mehta-varghese",
+    "name": "Mehta Varghese Associates",
+    "city": "Kochi",
+    "locale": "en-IN"
+  },
+  "dials": {
+    "displayFace": "technical",
+    "accent": "exception",
+    "temperature": "stone",
+    "typeContrast": "standard",
+    "density": "standard",
+    "composition": {
+      "header": "axial",
+      "hero": "plate",
+      "index": "ledger"
+    },
+    "ground": "ink"
+  },
+  "exceptions": [
+    {
+      "id": "EXC-01",
+      "target": "accent",
+      "value": {
+        "oklch": [
+          0.52,
+          0.07,
+          185
+        ]
+      },
+      "rationale": "Backwater teal is the practice’s established colour, used on signage, drawings and print since 2014. Plinth presets would break recognition.",
+      "source": "Mehta Varghese identity guidelines, rev. 2021, p. 6",
+      "approvedBy": "Art director",
+      "date": "2026-10-10"
+    }
+  ],
+  "distinctFrom": [
+    "ambar-rao"
+  ]
+}
